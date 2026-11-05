@@ -60138,6 +60138,54 @@
   ],
   "colouring": [
     {
+      "id": "Animals_01_HIGH_RES",
+      "name": "Animais #1",
+      "category": "Animais",
+      "sprite": "assets/colouring/Animals_01_HIGH_RES.png"
+    },
+    {
+      "id": "Animals_02_HIGH_RES",
+      "name": "Animais #2",
+      "category": "Animais",
+      "sprite": "assets/colouring/Animals_02_HIGH_RES.png"
+    },
+    {
+      "id": "Animals_03_HIGH_RES",
+      "name": "Animais #3",
+      "category": "Animais",
+      "sprite": "assets/colouring/Animals_03_HIGH_RES.png"
+    },
+    {
+      "id": "Dancemode_01_HIGH_RES",
+      "name": "Modo Dança #1",
+      "category": "Modo Dança",
+      "sprite": "assets/colouring/Dancemode_01_HIGH_RES.png"
+    },
+    {
+      "id": "Dancemode_02_HIGH_RES",
+      "name": "Modo Dança #2",
+      "category": "Modo Dança",
+      "sprite": "assets/colouring/Dancemode_02_HIGH_RES.png"
+    },
+    {
+      "id": "Friends_01_HIGH_RES",
+      "name": "Amigos #1",
+      "category": "Amigos",
+      "sprite": "assets/colouring/Friends_01_HIGH_RES.png"
+    },
+    {
+      "id": "Friends_02_HIGH_RES",
+      "name": "Amigos #2",
+      "category": "Amigos",
+      "sprite": "assets/colouring/Friends_02_HIGH_RES.png"
+    },
+    {
+      "id": "Friends_03_HIGH_RES",
+      "name": "Amigos #3",
+      "category": "Amigos",
+      "sprite": "assets/colouring/Friends_03_HIGH_RES.png"
+    },
+    {
       "id": "Heelers_01_HIGH_RES",
       "name": "Família Heeler #1",
       "category": "Família Heeler",
@@ -60160,54 +60208,6 @@
       "name": "Família Heeler #4",
       "category": "Família Heeler",
       "sprite": "assets/colouring/Heelers_04_HIGH_RES.png"
-    },
-    {
-      "id": "Friends_01_HIGH_RES",
-      "name": "Amigos #1",
-      "category": "Amigos",
-      "sprite": "assets/colouring/Friends_01_HIGH_RES.png"
-    },
-    {
-      "id": "Friends_02_HIGH_RES",
-      "name": "Amigos #2",
-      "category": "Amigos",
-      "sprite": "assets/colouring/Friends_02_HIGH_RES.png"
-    },
-    {
-      "id": "Friends_03_HIGH_RES",
-      "name": "Amigos #3",
-      "category": "Amigos",
-      "sprite": "assets/colouring/Friends_03_HIGH_RES.png"
-    },
-    {
-      "id": "Dancemode_01_HIGH_RES",
-      "name": "Modo Dança #1",
-      "category": "Modo Dança",
-      "sprite": "assets/colouring/Dancemode_01_HIGH_RES.png"
-    },
-    {
-      "id": "Dancemode_02_HIGH_RES",
-      "name": "Modo Dança #2",
-      "category": "Modo Dança",
-      "sprite": "assets/colouring/Dancemode_02_HIGH_RES.png"
-    },
-    {
-      "id": "Animals_01_HIGH_RES",
-      "name": "Animais #1",
-      "category": "Animais",
-      "sprite": "assets/colouring/Animals_01_HIGH_RES.png"
-    },
-    {
-      "id": "Animals_02_HIGH_RES",
-      "name": "Animais #2",
-      "category": "Animais",
-      "sprite": "assets/colouring/Animals_02_HIGH_RES.png"
-    },
-    {
-      "id": "Animals_03_HIGH_RES",
-      "name": "Animais #3",
-      "category": "Animais",
-      "sprite": "assets/colouring/Animals_03_HIGH_RES.png"
     }
   ],
   "dressup": [

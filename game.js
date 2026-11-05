@@ -1258,6 +1258,28 @@
     showPhotoSnapshot(colCanvas.toDataURL('image/png'));
   });
 
+  const customColInput = document.getElementById('input-custom-colouring');
+  if (customColInput) {
+    customColInput.addEventListener('change', e => {
+      const files = Array.from(e.target.files || []);
+      if (!files.length) return;
+      files.forEach((file, idx) => {
+        const url = URL.createObjectURL(file);
+        const cleanName = file.name.replace(/\.[^/.]+$/, '').replace(/_/g, ' ');
+        const newPage = {
+          id: 'custom_' + Date.now() + '_' + idx,
+          name: cleanName,
+          category: 'Personalizado',
+          sprite: url
+        };
+        DATA.colouring.unshift(newPage);
+      });
+      openColouringMinigame();
+      showToast(`🎨 ${files.length} desenho(s) adicionado(s) para colorir!`);
+      customColInput.value = '';
+    });
+  }
+
   // =========================================================================
   // 4. DRESS-UP STUDIO MINIGAME
   // =========================================================================
