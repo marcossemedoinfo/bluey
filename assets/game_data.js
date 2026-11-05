@@ -60144,6 +60144,12 @@ window.BLUEY_GAME_DATA = {
       "sprite": "assets/colouring/Animals_01_HIGH_RES.png"
     },
     {
+      "id": "Arthur",
+      "name": "Arthur #1",
+      "category": "Animais",
+      "sprite": "assets/colouring/Arthur.png"
+    },
+    {
       "id": "Animals_02_HIGH_RES",
       "name": "Animais #2",
       "category": "Animais",
