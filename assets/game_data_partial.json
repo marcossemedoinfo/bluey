@@ -1,0 +1,2247 @@
+{
+  "characters": [
+    {
+      "id": "Bluey",
+      "name": "Bluey",
+      "sprite": "assets/characters_poses/Bluey_stand.png",
+      "w": 90,
+      "h": 149,
+      "pivX": 50.3,
+      "pivY": 147.7,
+      "sitPivY": 114.7,
+      "eyeX": 49.5,
+      "eyeY": 49.6,
+      "hatX": 49.5,
+      "hatY": 19.5,
+      "outfitX": 50.3,
+      "outfitY": 84.8,
+      "poses": {
+        "stand": "assets/characters_poses/Bluey_stand.png",
+        "blink": "assets/characters_poses/Bluey_blink.png",
+        "walk1": "assets/characters_poses/Bluey_walk1.png",
+        "walk2": "assets/characters_poses/Bluey_walk2.png",
+        "sit": "assets/characters_poses/Bluey_sit.png"
+      }
+    },
+    {
+      "id": "Bingo",
+      "name": "Bingo",
+      "sprite": "assets/characters_poses/Bingo_stand.png",
+      "w": 77,
+      "h": 119,
+      "pivX": 42.0,
+      "pivY": 116.5,
+      "sitPivY": 96.3,
+      "eyeX": 42.0,
+      "eyeY": 42.4,
+      "hatX": 42.0,
+      "hatY": 19.9,
+      "outfitX": 42.0,
+      "outfitY": 78.8,
+      "poses": {
+        "stand": "assets/characters_poses/Bingo_stand.png",
+        "blink": "assets/characters_poses/Bingo_blink.png",
+        "walk1": "assets/characters_poses/Bingo_walk1.png",
+        "walk2": "assets/characters_poses/Bingo_walk2.png",
+        "sit": "assets/characters_poses/Bingo_sit.png"
+      }
+    },
+    {
+      "id": "Bandit",
+      "name": "Bandit",
+      "sprite": "assets/characters_poses/Bandit_stand.png",
+      "w": 134,
+      "h": 249,
+      "pivX": 67.7,
+      "pivY": 248.2,
+      "sitPivY": 198.4,
+      "eyeX": 68.1,
+      "eyeY": 76.8,
+      "hatX": 68.1,
+      "hatY": 19.5,
+      "outfitX": 67.7,
+      "outfitY": 99.0,
+      "poses": {
+        "stand": "assets/characters_poses/Bandit_stand.png",
+        "blink": "assets/characters_poses/Bandit_blink.png",
+        "walk1": "assets/characters_poses/Bandit_walk1.png",
+        "walk2": "assets/characters_poses/Bandit_walk2.png",
+        "sit": "assets/characters_poses/Bandit_sit.png"
+      }
+    },
+    {
+      "id": "Chilli",
+      "name": "Chilli",
+      "sprite": "assets/characters_poses/Chilli_stand.png",
+      "w": 118,
+      "h": 229,
+      "pivX": 67.5,
+      "pivY": 227.9,
+      "sitPivY": 178.7,
+      "eyeX": 68.4,
+      "eyeY": 69.6,
+      "hatX": 68.4,
+      "hatY": 19.3,
+      "outfitX": 67.5,
+      "outfitY": 93.0,
+      "poses": {
+        "stand": "assets/characters_poses/Chilli_stand.png",
+        "blink": "assets/characters_poses/Chilli_blink.png",
+        "walk1": "assets/characters_poses/Chilli_walk1.png",
+        "walk2": "assets/characters_poses/Chilli_walk2.png",
+        "sit": "assets/characters_poses/Chilli_sit.png"
+      }
+    },
+    {
+      "id": "Muffin",
+      "name": "Muffin",
+      "sprite": "assets/characters_poses/Muffin_stand.png",
+      "w": 91,
+      "h": 116,
+      "pivX": 47.1,
+      "pivY": 116.0,
+      "sitPivY": 96.5,
+      "eyeX": 47.9,
+      "eyeY": 50.9,
+      "hatX": 47.9,
+      "hatY": 19.5,
+      "outfitX": 47.1,
+      "outfitY": 78.8,
+      "poses": {
+        "stand": "assets/characters_poses/Muffin_stand.png",
+        "blink": "assets/characters_poses/Muffin_blink.png",
+        "walk1": "assets/characters_poses/Muffin_walk1.png",
+        "walk2": "assets/characters_poses/Muffin_walk2.png",
+        "sit": "assets/characters_poses/Muffin_sit.png"
+      }
+    },
+    {
+      "id": "Socks",
+      "name": "Socks",
+      "sprite": "assets/characters_poses/Socks_stand.png",
+      "w": 75,
+      "h": 110,
+      "pivX": 41.3,
+      "pivY": 109.4,
+      "sitPivY": 89.4,
+      "eyeX": 40.5,
+      "eyeY": 42.0,
+      "hatX": 40.5,
+      "hatY": 19.0,
+      "outfitX": 41.3,
+      "outfitY": 77.4,
+      "poses": {
+        "stand": "assets/characters_poses/Socks_stand.png",
+        "blink": "assets/characters_poses/Socks_blink.png",
+        "walk1": "assets/characters_poses/Socks_walk1.png",
+        "walk2": "assets/characters_poses/Socks_walk2.png",
+        "sit": "assets/characters_poses/Socks_sit.png"
+      }
+    },
+    {
+      "id": "Stripe",
+      "name": "Stripe",
+      "sprite": "assets/characters_poses/Stripe_stand.png",
+      "w": 145,
+      "h": 246,
+      "pivX": 79.6,
+      "pivY": 244.2,
+      "sitPivY": 194.7,
+      "eyeX": 79.2,
+      "eyeY": 73.2,
+      "hatX": 79.2,
+      "hatY": 24.4,
+      "outfitX": 79.6,
+      "outfitY": 95.2,
+      "poses": {
+        "stand": "assets/characters_poses/Stripe_stand.png",
+        "blink": "assets/characters_poses/Stripe_blink.png",
+        "walk1": "assets/characters_poses/Stripe_walk1.png",
+        "walk2": "assets/characters_poses/Stripe_walk2.png",
+        "sit": "assets/characters_poses/Stripe_sit.png"
+      }
+    },
+    {
+      "id": "Trixie",
+      "name": "Trixie",
+      "sprite": "assets/characters_poses/Trixie_stand.png",
+      "w": 118,
+      "h": 215,
+      "pivX": 65.3,
+      "pivY": 213.5,
+      "sitPivY": 168.1,
+      "eyeX": 65.3,
+      "eyeY": 64.8,
+      "hatX": 65.3,
+      "hatY": 19.9,
+      "outfitX": 65.3,
+      "outfitY": 90.8,
+      "poses": {
+        "stand": "assets/characters_poses/Trixie_stand.png",
+        "blink": "assets/characters_poses/Trixie_blink.png",
+        "walk1": "assets/characters_poses/Trixie_walk1.png",
+        "walk2": "assets/characters_poses/Trixie_walk2.png",
+        "sit": "assets/characters_poses/Trixie_sit.png"
+      }
+    },
+    {
+      "id": "Nana",
+      "name": "Nana",
+      "sprite": "assets/characters_poses/Nana_stand.png",
+      "w": 127,
+      "h": 213,
+      "pivX": 63.4,
+      "pivY": 210.0,
+      "sitPivY": 175.4,
+      "eyeX": 65.6,
+      "eyeY": 63.3,
+      "hatX": 65.6,
+      "hatY": 19.5,
+      "outfitX": 63.4,
+      "outfitY": 89.2,
+      "poses": {
+        "stand": "assets/characters_poses/Nana_stand.png",
+        "blink": "assets/characters_poses/Nana_blink.png",
+        "walk1": "assets/characters_poses/Nana_walk1.png",
+        "walk2": "assets/characters_poses/Nana_walk2.png",
+        "sit": "assets/characters_poses/Nana_sit.png"
+      }
+    },
+    {
+      "id": "Grandad",
+      "name": "Grandad",
+      "sprite": "assets/characters_poses/Grandad_stand.png",
+      "w": 144,
+      "h": 250,
+      "pivX": 84.7,
+      "pivY": 250.2,
+      "sitPivY": 199.4,
+      "eyeX": 85.8,
+      "eyeY": 77.8,
+      "hatX": 85.8,
+      "hatY": 19.9,
+      "outfitX": 84.7,
+      "outfitY": 86.6,
+      "poses": {
+        "stand": "assets/characters_poses/Grandad_stand.png",
+        "blink": "assets/characters_poses/Grandad_blink.png",
+        "walk1": "assets/characters_poses/Grandad_walk1.png",
+        "walk2": "assets/characters_poses/Grandad_walk2.png",
+        "sit": "assets/characters_poses/Grandad_sit.png"
+      }
+    },
+    {
+      "id": "UncleRad",
+      "name": "Uncle Rad",
+      "sprite": "assets/characters_poses/UncleRad_stand.png",
+      "w": 148,
+      "h": 248,
+      "pivX": 82.5,
+      "pivY": 244.7,
+      "sitPivY": 197.5,
+      "eyeX": 86.3,
+      "eyeY": 73.9,
+      "hatX": 86.3,
+      "hatY": 19.5,
+      "outfitX": 82.5,
+      "outfitY": 84.0,
+      "poses": {
+        "stand": "assets/characters_poses/UncleRad_stand.png",
+        "blink": "assets/characters_poses/UncleRad_blink.png",
+        "walk1": "assets/characters_poses/UncleRad_walk1.png",
+        "walk2": "assets/characters_poses/UncleRad_walk2.png",
+        "sit": "assets/characters_poses/UncleRad_sit.png"
+      }
+    },
+    {
+      "id": "Frisky",
+      "name": "Frisky",
+      "sprite": "assets/characters_poses/Frisky_stand.png",
+      "w": 109,
+      "h": 197,
+      "pivX": 64.5,
+      "pivY": 197.2,
+      "sitPivY": 142.1,
+      "eyeX": 66.0,
+      "eyeY": 46.8,
+      "hatX": 66.0,
+      "hatY": 19.8,
+      "outfitX": 64.5,
+      "outfitY": 57.8,
+      "poses": {
+        "stand": "assets/characters_poses/Frisky_stand.png",
+        "blink": "assets/characters_poses/Frisky_blink.png",
+        "walk1": "assets/characters_poses/Frisky_walk1.png",
+        "walk2": "assets/characters_poses/Frisky_walk2.png",
+        "sit": "assets/characters_poses/Frisky_sit.png"
+      }
+    },
+    {
+      "id": "AdamGrumm",
+      "name": "Adam Grumm",
+      "sprite": "assets/characters_poses/AdamGrumm_stand.png",
+      "w": 74,
+      "h": 127,
+      "pivX": 37.3,
+      "pivY": 126.0,
+      "sitPivY": 98.2,
+      "eyeX": 36.9,
+      "eyeY": 37.2,
+      "hatX": 36.9,
+      "hatY": 18.0,
+      "outfitX": 37.3,
+      "outfitY": 70.5,
+      "poses": {
+        "stand": "assets/characters_poses/AdamGrumm_stand.png",
+        "blink": "assets/characters_poses/AdamGrumm_blink.png",
+        "walk1": "assets/characters_poses/AdamGrumm_walk1.png",
+        "walk2": "assets/characters_poses/AdamGrumm_walk2.png",
+        "sit": "assets/characters_poses/AdamGrumm_sit.png"
+      }
+    },
+    {
+      "id": "Buddy",
+      "name": "Buddy",
+      "sprite": "assets/characters_poses/Buddy_stand.png",
+      "w": 75,
+      "h": 100,
+      "pivX": 38.2,
+      "pivY": 98.2,
+      "sitPivY": 77.1,
+      "eyeX": 38.0,
+      "eyeY": 27.8,
+      "hatX": 38.0,
+      "hatY": 25.5,
+      "outfitX": 38.2,
+      "outfitY": 61.5,
+      "poses": {
+        "stand": "assets/characters_poses/Buddy_stand.png",
+        "blink": "assets/characters_poses/Buddy_blink.png",
+        "walk1": "assets/characters_poses/Buddy_walk1.png",
+        "walk2": "assets/characters_poses/Buddy_walk2.png",
+        "sit": "assets/characters_poses/Buddy_sit.png"
+      }
+    },
+    {
+      "id": "Calypso",
+      "name": "Calypso",
+      "sprite": "assets/characters_poses/Calypso_stand.png",
+      "w": 134,
+      "h": 223,
+      "pivX": 78.3,
+      "pivY": 219.7,
+      "sitPivY": 172.4,
+      "eyeX": 77.5,
+      "eyeY": 57.0,
+      "hatX": 77.5,
+      "hatY": 19.5,
+      "outfitX": 78.3,
+      "outfitY": 75.8,
+      "poses": {
+        "stand": "assets/characters_poses/Calypso_stand.png",
+        "blink": "assets/characters_poses/Calypso_blink.png",
+        "walk1": "assets/characters_poses/Calypso_walk1.png",
+        "walk2": "assets/characters_poses/Calypso_walk2.png",
+        "sit": "assets/characters_poses/Calypso_sit.png"
+      }
+    },
+    {
+      "id": "Chloe",
+      "name": "Chloe",
+      "sprite": "assets/characters_poses/Chloe_stand.png",
+      "w": 90,
+      "h": 136,
+      "pivX": 47.9,
+      "pivY": 135.8,
+      "sitPivY": 95.2,
+      "eyeX": 47.0,
+      "eyeY": 26.9,
+      "hatX": 47.0,
+      "hatY": 32.9,
+      "outfitX": 47.9,
+      "outfitY": 61.9,
+      "poses": {
+        "stand": "assets/characters_poses/Chloe_stand.png",
+        "blink": "assets/characters_poses/Chloe_blink.png",
+        "walk1": "assets/characters_poses/Chloe_walk1.png",
+        "walk2": "assets/characters_poses/Chloe_walk2.png",
+        "sit": "assets/characters_poses/Chloe_sit.png"
+      }
+    },
+    {
+      "id": "Chucky",
+      "name": "Chucky",
+      "sprite": "assets/characters_poses/Chucky_stand.png",
+      "w": 86,
+      "h": 111,
+      "pivX": 43.7,
+      "pivY": 109.0,
+      "sitPivY": 85.6,
+      "eyeX": 43.9,
+      "eyeY": 29.8,
+      "hatX": 43.9,
+      "hatY": 21.8,
+      "outfitX": 43.7,
+      "outfitY": 61.0,
+      "poses": {
+        "stand": "assets/characters_poses/Chucky_stand.png",
+        "blink": "assets/characters_poses/Chucky_blink.png",
+        "walk1": "assets/characters_poses/Chucky_walk1.png",
+        "walk2": "assets/characters_poses/Chucky_walk2.png",
+        "sit": "assets/characters_poses/Chucky_sit.png"
+      }
+    },
+    {
+      "id": "Coco",
+      "name": "Coco",
+      "sprite": "assets/characters_poses/Coco_stand.png",
+      "w": 96,
+      "h": 138,
+      "pivX": 45.9,
+      "pivY": 137.1,
+      "sitPivY": 102.0,
+      "eyeX": 49.3,
+      "eyeY": 25.6,
+      "hatX": 49.3,
+      "hatY": 20.1,
+      "outfitX": 45.9,
+      "outfitY": 62.1,
+      "poses": {
+        "stand": "assets/characters_poses/Coco_stand.png",
+        "blink": "assets/characters_poses/Coco_blink.png",
+        "walk1": "assets/characters_poses/Coco_walk1.png",
+        "walk2": "assets/characters_poses/Coco_walk2.png",
+        "sit": "assets/characters_poses/Coco_sit.png"
+      }
+    },
+    {
+      "id": "DanGrumm",
+      "name": "Dan Grumm",
+      "sprite": "assets/characters_poses/DanGrumm_stand.png",
+      "w": 72,
+      "h": 118,
+      "pivX": 36.8,
+      "pivY": 116.2,
+      "sitPivY": 88.5,
+      "eyeX": 36.0,
+      "eyeY": 34.9,
+      "hatX": 36.0,
+      "hatY": 19.5,
+      "outfitX": 36.8,
+      "outfitY": 70.5,
+      "poses": {
+        "stand": "assets/characters_poses/DanGrumm_stand.png",
+        "blink": "assets/characters_poses/DanGrumm_blink.png",
+        "walk1": "assets/characters_poses/DanGrumm_walk1.png",
+        "walk2": "assets/characters_poses/DanGrumm_walk2.png",
+        "sit": "assets/characters_poses/DanGrumm_sit.png"
+      }
+    },
+    {
+      "id": "Doreen",
+      "name": "Doreen",
+      "sprite": "assets/characters_poses/Doreen_stand.png",
+      "w": 138,
+      "h": 207,
+      "pivX": 70.5,
+      "pivY": 205.5,
+      "sitPivY": 172.7,
+      "eyeX": 69.9,
+      "eyeY": 39.4,
+      "hatX": 69.9,
+      "hatY": 41.3,
+      "outfitX": 70.5,
+      "outfitY": 60.0,
+      "poses": {
+        "stand": "assets/characters_poses/Doreen_stand.png",
+        "blink": "assets/characters_poses/Doreen_blink.png",
+        "walk1": "assets/characters_poses/Doreen_walk1.png",
+        "walk2": "assets/characters_poses/Doreen_walk2.png",
+        "sit": "assets/characters_poses/Doreen_sit.png"
+      }
+    },
+    {
+      "id": "Dusty",
+      "name": "Dusty",
+      "sprite": "assets/characters_poses/Dusty_stand.png",
+      "w": 63,
+      "h": 109,
+      "pivX": 32.2,
+      "pivY": 108.0,
+      "sitPivY": 86.3,
+      "eyeX": 32.2,
+      "eyeY": 45.0,
+      "hatX": 32.2,
+      "hatY": 21.4,
+      "outfitX": 32.2,
+      "outfitY": 69.8,
+      "poses": {
+        "stand": "assets/characters_poses/Dusty_stand.png",
+        "blink": "assets/characters_poses/Dusty_blink.png",
+        "walk1": "assets/characters_poses/Dusty_walk1.png",
+        "walk2": "assets/characters_poses/Dusty_walk2.png",
+        "sit": "assets/characters_poses/Dusty_sit.png"
+      }
+    },
+    {
+      "id": "GrandpaBob",
+      "name": "Grandpa Bob",
+      "sprite": "assets/characters_poses/GrandpaBob_stand.png",
+      "w": 139,
+      "h": 248,
+      "pivX": 76.5,
+      "pivY": 246.7,
+      "sitPivY": 197.1,
+      "eyeX": 78.2,
+      "eyeY": 73.1,
+      "hatX": 78.2,
+      "hatY": 23.6,
+      "outfitX": 76.5,
+      "outfitY": 95.2,
+      "poses": {
+        "stand": "assets/characters_poses/GrandpaBob_stand.png",
+        "blink": "assets/characters_poses/GrandpaBob_blink.png",
+        "walk1": "assets/characters_poses/GrandpaBob_walk1.png",
+        "walk2": "assets/characters_poses/GrandpaBob_walk2.png",
+        "sit": "assets/characters_poses/GrandpaBob_sit.png"
+      }
+    },
+    {
+      "id": "Honey",
+      "name": "Honey",
+      "sprite": "assets/characters_poses/Honey_stand.png",
+      "w": 91,
+      "h": 132,
+      "pivX": 47.1,
+      "pivY": 131.4,
+      "sitPivY": 103.2,
+      "eyeX": 48.8,
+      "eyeY": 26.4,
+      "hatX": 48.8,
+      "hatY": 28.5,
+      "outfitX": 47.1,
+      "outfitY": 60.8,
+      "poses": {
+        "stand": "assets/characters_poses/Honey_stand.png",
+        "blink": "assets/characters_poses/Honey_blink.png",
+        "walk1": "assets/characters_poses/Honey_walk1.png",
+        "walk2": "assets/characters_poses/Honey_walk2.png",
+        "sit": "assets/characters_poses/Honey_sit.png"
+      }
+    },
+    {
+      "id": "Indy",
+      "name": "Indy",
+      "sprite": "assets/characters_poses/Indy_stand.png",
+      "w": 105,
+      "h": 150,
+      "pivX": 57.4,
+      "pivY": 151.3,
+      "sitPivY": 111.2,
+      "eyeX": 58.4,
+      "eyeY": 42.7,
+      "hatX": 58.4,
+      "hatY": 19.5,
+      "outfitX": 57.4,
+      "outfitY": 63.1,
+      "poses": {
+        "stand": "assets/characters_poses/Indy_stand.png",
+        "blink": "assets/characters_poses/Indy_blink.png",
+        "walk1": "assets/characters_poses/Indy_walk1.png",
+        "walk2": "assets/characters_poses/Indy_walk2.png",
+        "sit": "assets/characters_poses/Indy_sit.png"
+      }
+    },
+    {
+      "id": "Jack",
+      "name": "Jack",
+      "sprite": "assets/characters_poses/Jack_stand.png",
+      "w": 85,
+      "h": 125,
+      "pivX": 45.6,
+      "pivY": 124.7,
+      "sitPivY": 93.6,
+      "eyeX": 46.9,
+      "eyeY": 31.2,
+      "hatX": 46.9,
+      "hatY": 20.6,
+      "outfitX": 45.6,
+      "outfitY": 57.8,
+      "poses": {
+        "stand": "assets/characters_poses/Jack_stand.png",
+        "blink": "assets/characters_poses/Jack_blink.png",
+        "walk1": "assets/characters_poses/Jack_walk1.png",
+        "walk2": "assets/characters_poses/Jack_walk2.png",
+        "sit": "assets/characters_poses/Jack_sit.png"
+      }
+    },
+    {
+      "id": "JeanLuc",
+      "name": "Jean Luc",
+      "sprite": "assets/characters_poses/JeanLuc_stand.png",
+      "w": 89,
+      "h": 145,
+      "pivX": 44.3,
+      "pivY": 143.1,
+      "sitPivY": 106.4,
+      "eyeX": 45.8,
+      "eyeY": 28.6,
+      "hatX": 45.8,
+      "hatY": 25.5,
+      "outfitX": 44.3,
+      "outfitY": 62.2,
+      "poses": {
+        "stand": "assets/characters_poses/JeanLuc_stand.png",
+        "blink": "assets/characters_poses/JeanLuc_blink.png",
+        "walk1": "assets/characters_poses/JeanLuc_walk1.png",
+        "walk2": "assets/characters_poses/JeanLuc_walk2.png",
+        "sit": "assets/characters_poses/JeanLuc_sit.png"
+      }
+    },
+    {
+      "id": "JoeGrumm",
+      "name": "Joe Grumm",
+      "sprite": "assets/characters_poses/JoeGrumm_stand.png",
+      "w": 73,
+      "h": 128,
+      "pivX": 37.3,
+      "pivY": 126.7,
+      "sitPivY": 96.2,
+      "eyeX": 37.9,
+      "eyeY": 36.0,
+      "hatX": 37.9,
+      "hatY": 19.9,
+      "outfitX": 37.3,
+      "outfitY": 72.7,
+      "poses": {
+        "stand": "assets/characters_poses/JoeGrumm_stand.png",
+        "blink": "assets/characters_poses/JoeGrumm_blink.png",
+        "walk1": "assets/characters_poses/JoeGrumm_walk1.png",
+        "walk2": "assets/characters_poses/JoeGrumm_walk2.png",
+        "sit": "assets/characters_poses/JoeGrumm_sit.png"
+      }
+    },
+    {
+      "id": "Judo",
+      "name": "Judo",
+      "sprite": "assets/characters_poses/Judo_stand.png",
+      "w": 97,
+      "h": 145,
+      "pivX": 53.8,
+      "pivY": 146.4,
+      "sitPivY": 109.7,
+      "eyeX": 57.8,
+      "eyeY": 45.1,
+      "hatX": 57.8,
+      "hatY": 19.5,
+      "outfitX": 53.8,
+      "outfitY": 62.2,
+      "poses": {
+        "stand": "assets/characters_poses/Judo_stand.png",
+        "blink": "assets/characters_poses/Judo_blink.png",
+        "walk1": "assets/characters_poses/Judo_walk1.png",
+        "walk2": "assets/characters_poses/Judo_walk2.png",
+        "sit": "assets/characters_poses/Judo_sit.png"
+      }
+    },
+    {
+      "id": "Lila",
+      "name": "Lila",
+      "sprite": "assets/characters_poses/Lila_stand.png",
+      "w": 69,
+      "h": 89,
+      "pivX": 34.5,
+      "pivY": 88.2,
+      "sitPivY": 68.5,
+      "eyeX": 35.2,
+      "eyeY": 27.3,
+      "hatX": 35.2,
+      "hatY": 24.0,
+      "outfitX": 34.5,
+      "outfitY": 57.8,
+      "poses": {
+        "stand": "assets/characters_poses/Lila_stand.png",
+        "blink": "assets/characters_poses/Lila_blink.png",
+        "walk1": "assets/characters_poses/Lila_walk1.png",
+        "walk2": "assets/characters_poses/Lila_walk2.png",
+        "sit": "assets/characters_poses/Lila_sit.png"
+      }
+    },
+    {
+      "id": "Lucky",
+      "name": "Lucky",
+      "sprite": "assets/characters_poses/Lucky_stand.png",
+      "w": 97,
+      "h": 156,
+      "pivX": 48.8,
+      "pivY": 155.2,
+      "sitPivY": 122.4,
+      "eyeX": 51.3,
+      "eyeY": 36.5,
+      "hatX": 51.3,
+      "hatY": 21.8,
+      "outfitX": 48.8,
+      "outfitY": 63.0,
+      "poses": {
+        "stand": "assets/characters_poses/Lucky_stand.png",
+        "blink": "assets/characters_poses/Lucky_blink.png",
+        "walk1": "assets/characters_poses/Lucky_walk1.png",
+        "walk2": "assets/characters_poses/Lucky_walk2.png",
+        "sit": "assets/characters_poses/Lucky_sit.png"
+      }
+    },
+    {
+      "id": "LuckysDad",
+      "name": "Luckys Dad",
+      "sprite": "assets/characters_poses/LuckysDad_stand.png",
+      "w": 139,
+      "h": 212,
+      "pivX": 77.2,
+      "pivY": 209.9,
+      "sitPivY": 160.0,
+      "eyeX": 72.2,
+      "eyeY": 34.5,
+      "hatX": 72.2,
+      "hatY": 19.5,
+      "outfitX": 77.2,
+      "outfitY": 65.2,
+      "poses": {
+        "stand": "assets/characters_poses/LuckysDad_stand.png",
+        "blink": "assets/characters_poses/LuckysDad_blink.png",
+        "walk1": "assets/characters_poses/LuckysDad_walk1.png",
+        "walk2": "assets/characters_poses/LuckysDad_walk2.png",
+        "sit": "assets/characters_poses/LuckysDad_sit.png"
+      }
+    },
+    {
+      "id": "LuckysMum",
+      "name": "Luckys Mum",
+      "sprite": "assets/characters_poses/LuckysMum_stand.png",
+      "w": 122,
+      "h": 211,
+      "pivX": 63.0,
+      "pivY": 209.0,
+      "sitPivY": 155.9,
+      "eyeX": 60.9,
+      "eyeY": 47.6,
+      "hatX": 60.9,
+      "hatY": 19.5,
+      "outfitX": 63.0,
+      "outfitY": 73.5,
+      "poses": {
+        "stand": "assets/characters_poses/LuckysMum_stand.png",
+        "blink": "assets/characters_poses/LuckysMum_blink.png",
+        "walk1": "assets/characters_poses/LuckysMum_walk1.png",
+        "walk2": "assets/characters_poses/LuckysMum_walk2.png",
+        "sit": "assets/characters_poses/LuckysMum_sit.png"
+      }
+    },
+    {
+      "id": "Mackenzie",
+      "name": "Mackenzie",
+      "sprite": "assets/characters_poses/Mackenzie_stand.png",
+      "w": 87,
+      "h": 162,
+      "pivX": 48.8,
+      "pivY": 160.5,
+      "sitPivY": 125.1,
+      "eyeX": 50.6,
+      "eyeY": 56.0,
+      "hatX": 50.6,
+      "hatY": 27.8,
+      "outfitX": 48.8,
+      "outfitY": 89.2,
+      "poses": {
+        "stand": "assets/characters_poses/Mackenzie_stand.png",
+        "blink": "assets/characters_poses/Mackenzie_blink.png",
+        "walk1": "assets/characters_poses/Mackenzie_walk1.png",
+        "walk2": "assets/characters_poses/Mackenzie_walk2.png",
+        "sit": "assets/characters_poses/Mackenzie_sit.png"
+      }
+    },
+    {
+      "id": "Mia",
+      "name": "Mia",
+      "sprite": "assets/characters_poses/Mia_stand.png",
+      "w": 109,
+      "h": 174,
+      "pivX": 56.2,
+      "pivY": 171.7,
+      "sitPivY": 119.2,
+      "eyeX": 56.1,
+      "eyeY": 34.0,
+      "hatX": 56.1,
+      "hatY": 19.5,
+      "outfitX": 56.2,
+      "outfitY": 60.8,
+      "poses": {
+        "stand": "assets/characters_poses/Mia_stand.png",
+        "blink": "assets/characters_poses/Mia_blink.png",
+        "walk1": "assets/characters_poses/Mia_walk1.png",
+        "walk2": "assets/characters_poses/Mia_walk2.png",
+        "sit": "assets/characters_poses/Mia_sit.png"
+      }
+    },
+    {
+      "id": "Missy",
+      "name": "Missy",
+      "sprite": "assets/characters_poses/Missy_stand.png",
+      "w": 76,
+      "h": 97,
+      "pivX": 41.3,
+      "pivY": 97.2,
+      "sitPivY": 78.2,
+      "eyeX": 39.4,
+      "eyeY": 35.6,
+      "hatX": 39.4,
+      "hatY": 44.1,
+      "outfitX": 41.3,
+      "outfitY": 57.8,
+      "poses": {
+        "stand": "assets/characters_poses/Missy_stand.png",
+        "blink": "assets/characters_poses/Missy_blink.png",
+        "walk1": "assets/characters_poses/Missy_walk1.png",
+        "walk2": "assets/characters_poses/Missy_walk2.png",
+        "sit": "assets/characters_poses/Missy_sit.png"
+      }
+    },
+    {
+      "id": "MrsRetriever",
+      "name": "Mrs Retriever",
+      "sprite": "assets/characters_poses/MrsRetriever_stand.png",
+      "w": 123,
+      "h": 191,
+      "pivX": 64.4,
+      "pivY": 189.7,
+      "sitPivY": 142.3,
+      "eyeX": 64.4,
+      "eyeY": 39.1,
+      "hatX": 64.4,
+      "hatY": 19.9,
+      "outfitX": 64.4,
+      "outfitY": 63.8,
+      "poses": {
+        "stand": "assets/characters_poses/MrsRetriever_stand.png",
+        "blink": "assets/characters_poses/MrsRetriever_blink.png",
+        "walk1": "assets/characters_poses/MrsRetriever_walk1.png",
+        "walk2": "assets/characters_poses/MrsRetriever_walk2.png",
+        "sit": "assets/characters_poses/MrsRetriever_sit.png"
+      }
+    },
+    {
+      "id": "PomPom",
+      "name": "Pom Pom",
+      "sprite": "assets/characters_poses/PomPom_stand.png",
+      "w": 71,
+      "h": 71,
+      "pivX": 36.7,
+      "pivY": 69.1,
+      "sitPivY": 62.0,
+      "eyeX": 36.0,
+      "eyeY": 31.7,
+      "hatX": 36.0,
+      "hatY": 19.5,
+      "outfitX": 36.7,
+      "outfitY": 60.7,
+      "poses": {
+        "stand": "assets/characters_poses/PomPom_stand.png",
+        "blink": "assets/characters_poses/PomPom_blink.png",
+        "walk1": "assets/characters_poses/PomPom_walk1.png",
+        "walk2": "assets/characters_poses/PomPom_walk2.png",
+        "sit": "assets/characters_poses/PomPom_sit.png"
+      }
+    },
+    {
+      "id": "Pretzel",
+      "name": "Pretzel",
+      "sprite": "assets/characters_poses/Pretzel_stand.png",
+      "w": 75,
+      "h": 143,
+      "pivX": 38.4,
+      "pivY": 141.0,
+      "sitPivY": 113.1,
+      "eyeX": 38.0,
+      "eyeY": 55.5,
+      "hatX": 38.0,
+      "hatY": 19.9,
+      "outfitX": 38.4,
+      "outfitY": 90.0,
+      "poses": {
+        "stand": "assets/characters_poses/Pretzel_stand.png",
+        "blink": "assets/characters_poses/Pretzel_blink.png",
+        "walk1": "assets/characters_poses/Pretzel_walk1.png",
+        "walk2": "assets/characters_poses/Pretzel_walk2.png",
+        "sit": "assets/characters_poses/Pretzel_sit.png"
+      }
+    },
+    {
+      "id": "Rusty",
+      "name": "Rusty",
+      "sprite": "assets/characters_poses/Rusty_stand.png",
+      "w": 90,
+      "h": 156,
+      "pivX": 49.5,
+      "pivY": 154.5,
+      "sitPivY": 122.5,
+      "eyeX": 49.1,
+      "eyeY": 58.2,
+      "hatX": 49.1,
+      "hatY": 19.5,
+      "outfitX": 49.5,
+      "outfitY": 86.2,
+      "poses": {
+        "stand": "assets/characters_poses/Rusty_stand.png",
+        "blink": "assets/characters_poses/Rusty_blink.png",
+        "walk1": "assets/characters_poses/Rusty_walk1.png",
+        "walk2": "assets/characters_poses/Rusty_walk2.png",
+        "sit": "assets/characters_poses/Rusty_sit.png"
+      }
+    },
+    {
+      "id": "Snickers",
+      "name": "Snickers",
+      "sprite": "assets/characters_poses/Snickers_stand.png",
+      "w": 75,
+      "h": 142,
+      "pivX": 39.4,
+      "pivY": 140.7,
+      "sitPivY": 130.2,
+      "eyeX": 42.9,
+      "eyeY": 21.4,
+      "hatX": 42.9,
+      "hatY": 26.6,
+      "outfitX": 39.4,
+      "outfitY": 64.5,
+      "poses": {
+        "stand": "assets/characters_poses/Snickers_stand.png",
+        "blink": "assets/characters_poses/Snickers_blink.png",
+        "walk1": "assets/characters_poses/Snickers_walk1.png",
+        "walk2": "assets/characters_poses/Snickers_walk2.png",
+        "sit": "assets/characters_poses/Snickers_sit.png"
+      }
+    },
+    {
+      "id": "Winton",
+      "name": "Winton",
+      "sprite": "assets/characters_poses/Winton_stand.png",
+      "w": 80,
+      "h": 103,
+      "pivX": 40.3,
+      "pivY": 101.6,
+      "sitPivY": 79.9,
+      "eyeX": 40.9,
+      "eyeY": 29.6,
+      "hatX": 40.9,
+      "hatY": 26.5,
+      "outfitX": 40.3,
+      "outfitY": 62.6,
+      "poses": {
+        "stand": "assets/characters_poses/Winton_stand.png",
+        "blink": "assets/characters_poses/Winton_blink.png",
+        "walk1": "assets/characters_poses/Winton_walk1.png",
+        "walk2": "assets/characters_poses/Winton_walk2.png",
+        "sit": "assets/characters_poses/Winton_sit.png"
+      }
+    }
+  ],
+  "rooms": [],
+  "props": [
+    {
+      "id": "Xylophone",
+      "name": "Xilofone Mágico",
+      "sprite": "assets/props/Xylophone.png",
+      "w": 105,
+      "h": 47
+    },
+    {
+      "id": "SP_SH_Pan_01",
+      "name": "Frigideira",
+      "sprite": "assets/props/SP_SH_Pan_01.png",
+      "w": 107,
+      "h": 26
+    },
+    {
+      "id": "SP_LG_B_StickyGecko_01",
+      "name": "Lagartixa Grudenta (Sticky Gecko)",
+      "sprite": "assets/props/SP_LG_B_StickyGecko_01.png",
+      "w": 37,
+      "h": 39
+    }
+  ],
+  "colouring": [
+    {
+      "id": "Heelers_01_HIGH_RES",
+      "name": "Família Heeler #1",
+      "category": "Família Heeler",
+      "sprite": "assets/colouring/Heelers_01_HIGH_RES.png"
+    },
+    {
+      "id": "Heelers_02_HIGH_RES",
+      "name": "Família Heeler #2",
+      "category": "Família Heeler",
+      "sprite": "assets/colouring/Heelers_02_HIGH_RES.png"
+    },
+    {
+      "id": "Heelers_03_HIGH_RES",
+      "name": "Família Heeler #3",
+      "category": "Família Heeler",
+      "sprite": "assets/colouring/Heelers_03_HIGH_RES.png"
+    },
+    {
+      "id": "Heelers_04_HIGH_RES",
+      "name": "Família Heeler #4",
+      "category": "Família Heeler",
+      "sprite": "assets/colouring/Heelers_04_HIGH_RES.png"
+    },
+    {
+      "id": "Friends_01_HIGH_RES",
+      "name": "Amigos #1",
+      "category": "Amigos",
+      "sprite": "assets/colouring/Friends_01_HIGH_RES.png"
+    },
+    {
+      "id": "Friends_02_HIGH_RES",
+      "name": "Amigos #2",
+      "category": "Amigos",
+      "sprite": "assets/colouring/Friends_02_HIGH_RES.png"
+    },
+    {
+      "id": "Friends_03_HIGH_RES",
+      "name": "Amigos #3",
+      "category": "Amigos",
+      "sprite": "assets/colouring/Friends_03_HIGH_RES.png"
+    },
+    {
+      "id": "Dancemode_01_HIGH_RES",
+      "name": "Modo Dança #1",
+      "category": "Modo Dança",
+      "sprite": "assets/colouring/Dancemode_01_HIGH_RES.png"
+    },
+    {
+      "id": "Dancemode_02_HIGH_RES",
+      "name": "Modo Dança #2",
+      "category": "Modo Dança",
+      "sprite": "assets/colouring/Dancemode_02_HIGH_RES.png"
+    },
+    {
+      "id": "Animals_01_HIGH_RES",
+      "name": "Animais #1",
+      "category": "Animais",
+      "sprite": "assets/colouring/Animals_01_HIGH_RES.png"
+    },
+    {
+      "id": "Animals_02_HIGH_RES",
+      "name": "Animais #2",
+      "category": "Animais",
+      "sprite": "assets/colouring/Animals_02_HIGH_RES.png"
+    },
+    {
+      "id": "Animals_03_HIGH_RES",
+      "name": "Animais #3",
+      "category": "Animais",
+      "sprite": "assets/colouring/Animals_03_HIGH_RES.png"
+    }
+  ],
+  "dressup": [
+    {
+      "id": "SP_DU_F_Alien_Glasses_Blue_DR",
+      "name": "Alien Glasses Blue",
+      "kind": "face",
+      "sprite": "assets/dressup/SP_DU_F_Alien_Glasses_Blue_DR.png",
+      "w": 184,
+      "h": 91
+    },
+    {
+      "id": "SP_DU_F_Alien_Glasses_Green_DR",
+      "name": "Alien Glasses Green",
+      "kind": "face",
+      "sprite": "assets/dressup/SP_DU_F_Alien_Glasses_Green_DR.png",
+      "w": 184,
+      "h": 91
+    },
+    {
+      "id": "SP_DU_F_Alien_Glasses_Pink_DR",
+      "name": "Alien Glasses Pink",
+      "kind": "face",
+      "sprite": "assets/dressup/SP_DU_F_Alien_Glasses_Pink_DR.png",
+      "w": 184,
+      "h": 91
+    },
+    {
+      "id": "SP_DU_F_Disguise_01_DR",
+      "name": "Disguise 01",
+      "kind": "face",
+      "sprite": "assets/dressup/SP_DU_F_Disguise_01_DR.png",
+      "w": 180,
+      "h": 121
+    },
+    {
+      "id": "SP_DU_F_Disguise_02_DR",
+      "name": "Disguise 02",
+      "kind": "face",
+      "sprite": "assets/dressup/SP_DU_F_Disguise_02_DR.png",
+      "w": 158,
+      "h": 124
+    },
+    {
+      "id": "SP_DU_F_FairyGodmotherGlasses_DR",
+      "name": "FairyGodmotherGlasses",
+      "kind": "face",
+      "sprite": "assets/dressup/SP_DU_F_FairyGodmotherGlasses_DR.png",
+      "w": 192,
+      "h": 55
+    },
+    {
+      "id": "SP_DU_F_Goggles_Blue_DR",
+      "name": "Goggles Blue",
+      "kind": "face",
+      "sprite": "assets/dressup/SP_DU_F_Goggles_Blue_DR.png",
+      "w": 156,
+      "h": 98
+    },
+    {
+      "id": "SP_DU_F_Goggles_Crab_DR",
+      "name": "Goggles Crab",
+      "kind": "face",
+      "sprite": "assets/dressup/SP_DU_F_Goggles_Crab_DR.png",
+      "w": 192,
+      "h": 118
+    },
+    {
+      "id": "SP_DU_F_Goggles_Pink_DR",
+      "name": "Goggles Pink",
+      "kind": "face",
+      "sprite": "assets/dressup/SP_DU_F_Goggles_Pink_DR.png",
+      "w": 156,
+      "h": 98
+    },
+    {
+      "id": "SP_DU_F_Granny_Gladys_DR",
+      "name": "Granny Gladys",
+      "kind": "face",
+      "sprite": "assets/dressup/SP_DU_F_Granny_Gladys_DR.png",
+      "w": 177,
+      "h": 85
+    },
+    {
+      "id": "SP_DU_F_Granny_Janet_DR",
+      "name": "Granny Janet",
+      "kind": "face",
+      "sprite": "assets/dressup/SP_DU_F_Granny_Janet_DR.png",
+      "w": 180,
+      "h": 87
+    },
+    {
+      "id": "SP_DU_F_Granny_Madge_DR",
+      "name": "Granny Madge",
+      "kind": "face",
+      "sprite": "assets/dressup/SP_DU_F_Granny_Madge_DR.png",
+      "w": 246,
+      "h": 131
+    },
+    {
+      "id": "SP_DU_F_Pirate_EyePatch_DR",
+      "name": "Pirate EyePatch",
+      "kind": "face",
+      "sprite": "assets/dressup/SP_DU_F_Pirate_EyePatch_DR.png",
+      "w": 66,
+      "h": 132
+    },
+    {
+      "id": "SP_DU_F_Sunnies_01_DR",
+      "name": "Sunnies 01",
+      "kind": "face",
+      "sprite": "assets/dressup/SP_DU_F_Sunnies_01_DR.png",
+      "w": 180,
+      "h": 72
+    },
+    {
+      "id": "SP_DU_F_Sunnies_02_DR",
+      "name": "Sunnies 02",
+      "kind": "face",
+      "sprite": "assets/dressup/SP_DU_F_Sunnies_02_DR.png",
+      "w": 163,
+      "h": 76
+    },
+    {
+      "id": "SP_DU_H_AdventurePrincessCrown_DR",
+      "name": "AdventurePrincessCrown",
+      "kind": "hat",
+      "sprite": "assets/dressup/SP_DU_H_AdventurePrincessCrown_DR.png",
+      "w": 143,
+      "h": 109
+    },
+    {
+      "id": "SP_DU_H_AdventureWitchCrown_DR",
+      "name": "AdventureWitchCrown",
+      "kind": "hat",
+      "sprite": "assets/dressup/SP_DU_H_AdventureWitchCrown_DR.png",
+      "w": 190,
+      "h": 154
+    },
+    {
+      "id": "SP_DU_H_Alien_Blue_DR",
+      "name": "Alien Blue",
+      "kind": "hat",
+      "sprite": "assets/dressup/SP_DU_H_Alien_Blue_DR.png",
+      "w": 147,
+      "h": 152
+    },
+    {
+      "id": "SP_DU_H_Alien_Green_DR",
+      "name": "Alien Green",
+      "kind": "hat",
+      "sprite": "assets/dressup/SP_DU_H_Alien_Green_DR.png",
+      "w": 147,
+      "h": 152
+    },
+    {
+      "id": "SP_DU_H_Alien_Pink_DR",
+      "name": "Alien Pink",
+      "kind": "hat",
+      "sprite": "assets/dressup/SP_DU_H_Alien_Pink_DR.png",
+      "w": 147,
+      "h": 152
+    },
+    {
+      "id": "SP_DU_H_Antlers_DR",
+      "name": "Antlers",
+      "kind": "hat",
+      "sprite": "assets/dressup/SP_DU_H_Antlers_DR.png",
+      "w": 312,
+      "h": 242
+    },
+    {
+      "id": "SP_DU_H_Army_Jack_DR",
+      "name": "Army Jack",
+      "kind": "hat",
+      "sprite": "assets/dressup/SP_DU_H_Army_Jack_DR.png",
+      "w": 168,
+      "h": 100
+    },
+    {
+      "id": "SP_DU_H_Army_Rusty_DR",
+      "name": "Army Rusty",
+      "kind": "hat",
+      "sprite": "assets/dressup/SP_DU_H_Army_Rusty_DR.png",
+      "w": 205,
+      "h": 78
+    },
+    {
+      "id": "SP_DU_H_BunnyEars_DR",
+      "name": "BunnyEars",
+      "kind": "hat",
+      "sprite": "assets/dressup/SP_DU_H_BunnyEars_DR.png",
+      "w": 147,
+      "h": 130
+    },
+    {
+      "id": "SP_DU_H_Chef_DR",
+      "name": "Chef",
+      "kind": "hat",
+      "sprite": "assets/dressup/SP_DU_H_Chef_DR.png",
+      "w": 212,
+      "h": 146
+    },
+    {
+      "id": "SP_DU_H_Crown_Green_DR",
+      "name": "Crown Green",
+      "kind": "hat",
+      "sprite": "assets/dressup/SP_DU_H_Crown_Green_DR.png",
+      "w": 200,
+      "h": 140
+    },
+    {
+      "id": "SP_DU_H_Crown_Orange_DR",
+      "name": "Crown Orange",
+      "kind": "hat",
+      "sprite": "assets/dressup/SP_DU_H_Crown_Orange_DR.png",
+      "w": 200,
+      "h": 140
+    },
+    {
+      "id": "SP_DU_H_Crown_Pink_DR",
+      "name": "Crown Pink",
+      "kind": "hat",
+      "sprite": "assets/dressup/SP_DU_H_Crown_Pink_DR.png",
+      "w": 200,
+      "h": 141
+    },
+    {
+      "id": "SP_DU_H_Crown_Yellow_DR",
+      "name": "Crown Yellow",
+      "kind": "hat",
+      "sprite": "assets/dressup/SP_DU_H_Crown_Yellow_DR.png",
+      "w": 200,
+      "h": 140
+    },
+    {
+      "id": "SP_DU_H_Doreen_Hat_DR",
+      "name": "Doreen Hat",
+      "kind": "hat",
+      "sprite": "assets/dressup/SP_DU_H_Doreen_Hat_DR.png",
+      "w": 250,
+      "h": 122
+    },
+    {
+      "id": "SP_DU_H_FairyGodmotherCrown_01_DR",
+      "name": "FairyGodmotherCrown 01",
+      "kind": "hat",
+      "sprite": "assets/dressup/SP_DU_H_FairyGodmotherCrown_01_DR.png",
+      "w": 181,
+      "h": 83
+    },
+    {
+      "id": "SP_DU_H_Fedora_01_DR",
+      "name": "Fedora 01",
+      "kind": "hat",
+      "sprite": "assets/dressup/SP_DU_H_Fedora_01_DR.png",
+      "w": 135,
+      "h": 134
+    },
+    {
+      "id": "SP_DU_H_FlatPack_01_DR",
+      "name": "FlatPack 01",
+      "kind": "hat",
+      "sprite": "assets/dressup/SP_DU_H_FlatPack_01_DR.png",
+      "w": 182,
+      "h": 128
+    },
+    {
+      "id": "SP_DU_H_FlatPack_02_DR",
+      "name": "FlatPack 02",
+      "kind": "hat",
+      "sprite": "assets/dressup/SP_DU_H_FlatPack_02_DR.png",
+      "w": 183,
+      "h": 136
+    },
+    {
+      "id": "SP_DU_H_FloppyGnome_DR",
+      "name": "FloppyGnome",
+      "kind": "hat",
+      "sprite": "assets/dressup/SP_DU_H_FloppyGnome_DR.png",
+      "w": 170,
+      "h": 227
+    },
+    {
+      "id": "SP_DU_H_FlowerCrown_01_DR",
+      "name": "FlowerCrown 01",
+      "kind": "hat",
+      "sprite": "assets/dressup/SP_DU_H_FlowerCrown_01_DR.png",
+      "w": 184,
+      "h": 107
+    },
+    {
+      "id": "SP_DU_H_FlowerCrown_02_DR",
+      "name": "FlowerCrown 02",
+      "kind": "hat",
+      "sprite": "assets/dressup/SP_DU_H_FlowerCrown_02_DR.png",
+      "w": 168,
+      "h": 58
+    },
+    {
+      "id": "SP_DU_H_FlowerCrown_03_DR",
+      "name": "FlowerCrown 03",
+      "kind": "hat",
+      "sprite": "assets/dressup/SP_DU_H_FlowerCrown_03_DR.png",
+      "w": 159,
+      "h": 60
+    },
+    {
+      "id": "SP_DU_H_Flower_Frisky_DR",
+      "name": "Flower Frisky",
+      "kind": "hat",
+      "sprite": "assets/dressup/SP_DU_H_Flower_Frisky_DR.png",
+      "w": 76,
+      "h": 64
+    },
+    {
+      "id": "SP_DU_H_Frankenstein_Hat_DR",
+      "name": "Frankenstein Hat",
+      "kind": "hat",
+      "sprite": "assets/dressup/SP_DU_H_Frankenstein_Hat_DR.png",
+      "w": 257,
+      "h": 203
+    },
+    {
+      "id": "SP_DU_H_Gnome_DR",
+      "name": "Gnome",
+      "kind": "hat",
+      "sprite": "assets/dressup/SP_DU_H_Gnome_DR.png",
+      "w": 172,
+      "h": 272
+    },
+    {
+      "id": "SP_DU_H_HeadBand_Antlers_DR",
+      "name": "HeadBand Antlers",
+      "kind": "hat",
+      "sprite": "assets/dressup/SP_DU_H_HeadBand_Antlers_DR.png",
+      "w": 155,
+      "h": 163
+    },
+    {
+      "id": "SP_DU_H_Honey_Glasses_DR",
+      "name": "Honey Glasses",
+      "kind": "hat",
+      "sprite": "assets/dressup/SP_DU_H_Honey_Glasses_DR.png",
+      "w": 155,
+      "h": 77
+    },
+    {
+      "id": "SP_DU_H_Indy_Vest_DR",
+      "name": "Indy Vest",
+      "kind": "hat",
+      "sprite": "assets/dressup/SP_DU_H_Indy_Vest_DR.png",
+      "w": 119,
+      "h": 93
+    },
+    {
+      "id": "SP_DU_H_KingCrown_01_DR",
+      "name": "KingCrown 01",
+      "kind": "hat",
+      "sprite": "assets/dressup/SP_DU_H_KingCrown_01_DR.png",
+      "w": 158,
+      "h": 128
+    },
+    {
+      "id": "SP_DU_H_Knight_Head_DR",
+      "name": "Knight Head",
+      "kind": "hat",
+      "sprite": "assets/dressup/SP_DU_H_Knight_Head_DR.png",
+      "w": 181,
+      "h": 273
+    },
+    {
+      "id": "SP_DU_H_MortCity_DR",
+      "name": "MortCity",
+      "kind": "hat",
+      "sprite": "assets/dressup/SP_DU_H_MortCity_DR.png",
+      "w": 235,
+      "h": 108
+    },
+    {
+      "id": "SP_DU_H_Mort_DR",
+      "name": "Mort",
+      "kind": "hat",
+      "sprite": "assets/dressup/SP_DU_H_Mort_DR.png",
+      "w": 234,
+      "h": 117
+    },
+    {
+      "id": "SP_DU_H_Nana_Glasses_DR",
+      "name": "Nana Glasses",
+      "kind": "hat",
+      "sprite": "assets/dressup/SP_DU_H_Nana_Glasses_DR.png",
+      "w": 199,
+      "h": 53
+    },
+    {
+      "id": "SP_DU_H_Nurse_DR",
+      "name": "Nurse",
+      "kind": "hat",
+      "sprite": "assets/dressup/SP_DU_H_Nurse_DR.png",
+      "w": 170,
+      "h": 85
+    },
+    {
+      "id": "SP_DU_H_Party_01_DR",
+      "name": "Party 01",
+      "kind": "hat",
+      "sprite": "assets/dressup/SP_DU_H_Party_01_DR.png",
+      "w": 131,
+      "h": 192
+    },
+    {
+      "id": "SP_DU_H_Pirate_Hat_DR",
+      "name": "Pirate Hat",
+      "kind": "hat",
+      "sprite": "assets/dressup/SP_DU_H_Pirate_Hat_DR.png",
+      "w": 274,
+      "h": 247
+    },
+    {
+      "id": "SP_DU_H_Pumpkin_Hat_DR",
+      "name": "Pumpkin Hat",
+      "kind": "hat",
+      "sprite": "assets/dressup/SP_DU_H_Pumpkin_Hat_DR.png",
+      "w": 122,
+      "h": 98
+    },
+    {
+      "id": "SP_DU_H_QueenCrown_DR",
+      "name": "QueenCrown",
+      "kind": "hat",
+      "sprite": "assets/dressup/SP_DU_H_QueenCrown_DR.png",
+      "w": 158,
+      "h": 120
+    },
+    {
+      "id": "SP_DU_H_RomanHelmet_DR",
+      "name": "RomanHelmet",
+      "kind": "hat",
+      "sprite": "assets/dressup/SP_DU_H_RomanHelmet_DR.png",
+      "w": 134,
+      "h": 128
+    },
+    {
+      "id": "SP_DU_H_SantaHat_DR",
+      "name": "SantaHat",
+      "kind": "hat",
+      "sprite": "assets/dressup/SP_DU_H_SantaHat_DR.png",
+      "w": 201,
+      "h": 170
+    },
+    {
+      "id": "SP_DU_H_Snickers_Hat_DR",
+      "name": "Snickers Hat",
+      "kind": "hat",
+      "sprite": "assets/dressup/SP_DU_H_Snickers_Hat_DR.png",
+      "w": 136,
+      "h": 238
+    },
+    {
+      "id": "SP_DU_H_Spider_Headband_DR",
+      "name": "Spider Headband",
+      "kind": "hat",
+      "sprite": "assets/dressup/SP_DU_H_Spider_Headband_DR.png",
+      "w": 177,
+      "h": 126
+    },
+    {
+      "id": "SP_DU_H_Sunhat_01_DR",
+      "name": "Sunhat 01",
+      "kind": "hat",
+      "sprite": "assets/dressup/SP_DU_H_Sunhat_01_DR.png",
+      "w": 326,
+      "h": 158
+    },
+    {
+      "id": "SP_DU_H_Sunhat_02_DR",
+      "name": "Sunhat 02",
+      "kind": "hat",
+      "sprite": "assets/dressup/SP_DU_H_Sunhat_02_DR.png",
+      "w": 276,
+      "h": 146
+    },
+    {
+      "id": "SP_DU_H_Sunhat_03_DR",
+      "name": "Sunhat 03",
+      "kind": "hat",
+      "sprite": "assets/dressup/SP_DU_H_Sunhat_03_DR.png",
+      "w": 317,
+      "h": 131
+    },
+    {
+      "id": "SP_DU_H_Tiara_01_DR",
+      "name": "Tiara 01",
+      "kind": "hat",
+      "sprite": "assets/dressup/SP_DU_H_Tiara_01_DR.png",
+      "w": 96,
+      "h": 78
+    },
+    {
+      "id": "SP_DU_H_Tiara_02_DR",
+      "name": "Tiara 02",
+      "kind": "hat",
+      "sprite": "assets/dressup/SP_DU_H_Tiara_02_DR.png",
+      "w": 168,
+      "h": 84
+    },
+    {
+      "id": "SP_DU_H_TopHat_01_DR",
+      "name": "TopHat 01",
+      "kind": "hat",
+      "sprite": "assets/dressup/SP_DU_H_TopHat_01_DR.png",
+      "w": 164,
+      "h": 138
+    },
+    {
+      "id": "SP_DU_H_Viking_DR",
+      "name": "Viking",
+      "kind": "hat",
+      "sprite": "assets/dressup/SP_DU_H_Viking_DR.png",
+      "w": 186,
+      "h": 118
+    },
+    {
+      "id": "SP_DU_H_Witch_Hat_01_DR",
+      "name": "Witch Hat 01",
+      "kind": "hat",
+      "sprite": "assets/dressup/SP_DU_H_Witch_Hat_01_DR.png",
+      "w": 236,
+      "h": 216
+    },
+    {
+      "id": "SP_DU_H_Witch_Hat_02_DR",
+      "name": "Witch Hat 02",
+      "kind": "hat",
+      "sprite": "assets/dressup/SP_DU_H_Witch_Hat_02_DR.png",
+      "w": 293,
+      "h": 213
+    },
+    {
+      "id": "SP_DU_H_Witch_Hat_03_DR",
+      "name": "Witch Hat 03",
+      "kind": "hat",
+      "sprite": "assets/dressup/SP_DU_H_Witch_Hat_03_DR.png",
+      "w": 328,
+      "h": 248
+    },
+    {
+      "id": "SP_DU_H_Witch_Hat_04_DR",
+      "name": "Witch Hat 04",
+      "kind": "hat",
+      "sprite": "assets/dressup/SP_DU_H_Witch_Hat_04_DR.png",
+      "w": 293,
+      "h": 213
+    },
+    {
+      "id": "SP_DU_O_AdventurePrincessCape_DR",
+      "name": "AdventurePrincessCape",
+      "kind": "outfit",
+      "sprite": "assets/dressup/SP_DU_O_AdventurePrincessCape_DR.png",
+      "w": 166,
+      "h": 159
+    },
+    {
+      "id": "SP_DU_O_AdventureWitchCape_DR",
+      "name": "AdventureWitchCape",
+      "kind": "outfit",
+      "sprite": "assets/dressup/SP_DU_O_AdventureWitchCape_DR.png",
+      "w": 163,
+      "h": 124
+    },
+    {
+      "id": "SP_DU_O_Alien_Blue_DR",
+      "name": "Alien Blue",
+      "kind": "outfit",
+      "sprite": "assets/dressup/SP_DU_O_Alien_Blue_DR.png",
+      "w": 363,
+      "h": 150
+    },
+    {
+      "id": "SP_DU_O_Alien_Green_DR",
+      "name": "Alien Green",
+      "kind": "outfit",
+      "sprite": "assets/dressup/SP_DU_O_Alien_Green_DR.png",
+      "w": 333,
+      "h": 146
+    },
+    {
+      "id": "SP_DU_O_Alien_Purple_DR",
+      "name": "Alien Purple",
+      "kind": "outfit",
+      "sprite": "assets/dressup/SP_DU_O_Alien_Purple_DR.png",
+      "w": 374,
+      "h": 144
+    },
+    {
+      "id": "SP_DU_O_Apron_BC_DR",
+      "name": "Apron BC",
+      "kind": "outfit",
+      "sprite": "assets/dressup/SP_DU_O_Apron_BC_DR.png",
+      "w": 124,
+      "h": 270
+    },
+    {
+      "id": "SP_DU_O_Apron_Ladies_DR",
+      "name": "Apron Ladies",
+      "kind": "outfit",
+      "sprite": "assets/dressup/SP_DU_O_Apron_Ladies_DR.png",
+      "w": 103,
+      "h": 224
+    },
+    {
+      "id": "SP_DU_O_Apron_Men_DR",
+      "name": "Apron Men",
+      "kind": "outfit",
+      "sprite": "assets/dressup/SP_DU_O_Apron_Men_DR.png",
+      "w": 124,
+      "h": 270
+    },
+    {
+      "id": "SP_DU_O_Apron_ShortKids_DR",
+      "name": "Apron ShortKids",
+      "kind": "outfit",
+      "sprite": "assets/dressup/SP_DU_O_Apron_ShortKids_DR.png",
+      "w": 71,
+      "h": 154
+    },
+    {
+      "id": "SP_DU_O_Apron_TallKids_DR",
+      "name": "Apron TallKids",
+      "kind": "outfit",
+      "sprite": "assets/dressup/SP_DU_O_Apron_TallKids_DR.png",
+      "w": 98,
+      "h": 179
+    },
+    {
+      "id": "SP_DU_O_Ballerina_DR",
+      "name": "Ballerina",
+      "kind": "outfit",
+      "sprite": "assets/dressup/SP_DU_O_Ballerina_DR.png",
+      "w": 219,
+      "h": 129
+    },
+    {
+      "id": "SP_DU_O_Bowtie_01_DR",
+      "name": "Bowtie 01",
+      "kind": "outfit",
+      "sprite": "assets/dressup/SP_DU_O_Bowtie_01_DR.png",
+      "w": 82,
+      "h": 48
+    },
+    {
+      "id": "SP_DU_O_BumpyPants_DR",
+      "name": "BumpyPants",
+      "kind": "outfit",
+      "sprite": "assets/dressup/SP_DU_O_BumpyPants_DR.png",
+      "w": 226,
+      "h": 88
+    },
+    {
+      "id": "SP_DU_O_Calypso_Scarf_DR",
+      "name": "Calypso Scarf",
+      "kind": "outfit",
+      "sprite": "assets/dressup/SP_DU_O_Calypso_Scarf_DR.png",
+      "w": 205,
+      "h": 175
+    },
+    {
+      "id": "SP_DU_O_Christmas_HOS_DR",
+      "name": "Christmas HOS",
+      "kind": "outfit",
+      "sprite": "assets/dressup/SP_DU_O_Christmas_HOS_DR.png",
+      "w": 297,
+      "h": 156
+    },
+    {
+      "id": "SP_DU_O_Christmas_Sweater_BI_DR",
+      "name": "Christmas Sweater BI",
+      "kind": "outfit",
+      "sprite": "assets/dressup/SP_DU_O_Christmas_Sweater_BI_DR.png",
+      "w": 159,
+      "h": 87
+    },
+    {
+      "id": "SP_DU_O_Christmas_Sweater_BL_DR",
+      "name": "Christmas Sweater BL",
+      "kind": "outfit",
+      "sprite": "assets/dressup/SP_DU_O_Christmas_Sweater_BL_DR.png",
+      "w": 187,
+      "h": 102
+    },
+    {
+      "id": "SP_DU_O_ConeFlower_DR",
+      "name": "ConeFlower",
+      "kind": "outfit",
+      "sprite": "assets/dressup/SP_DU_O_ConeFlower_DR.png",
+      "w": 251,
+      "h": 198
+    },
+    {
+      "id": "SP_DU_O_DeciderBodypaint_DR",
+      "name": "DeciderBodypaint",
+      "kind": "outfit",
+      "sprite": "assets/dressup/SP_DU_O_DeciderBodypaint_DR.png",
+      "w": 62,
+      "h": 110
+    },
+    {
+      "id": "SP_DU_O_DeciderShirt_02_DR",
+      "name": "DeciderShirt 02",
+      "kind": "outfit",
+      "sprite": "assets/dressup/SP_DU_O_DeciderShirt_02_DR.png",
+      "w": 232,
+      "h": 128
+    },
+    {
+      "id": "SP_DU_O_DeciderShirt_03_DR",
+      "name": "DeciderShirt 03",
+      "kind": "outfit",
+      "sprite": "assets/dressup/SP_DU_O_DeciderShirt_03_DR.png",
+      "w": 167,
+      "h": 90
+    },
+    {
+      "id": "SP_DU_O_DeciderShirt_Adult_01_DR",
+      "name": "DeciderShirt Adult 01",
+      "kind": "outfit",
+      "sprite": "assets/dressup/SP_DU_O_DeciderShirt_Adult_01_DR.png",
+      "w": 205,
+      "h": 113
+    },
+    {
+      "id": "SP_DU_O_DeciderShirt_Kid_01_DR",
+      "name": "DeciderShirt Kid 01",
+      "kind": "outfit",
+      "sprite": "assets/dressup/SP_DU_O_DeciderShirt_Kid_01_DR.png",
+      "w": 165,
+      "h": 91
+    },
+    {
+      "id": "SP_DU_O_Doreen_Glasses_DR",
+      "name": "Doreen Glasses",
+      "kind": "outfit",
+      "sprite": "assets/dressup/SP_DU_O_Doreen_Glasses_DR.png",
+      "w": 196,
+      "h": 45
+    },
+    {
+      "id": "SP_DU_O_FairyGodmotherWings_DR",
+      "name": "FairyGodmotherWings",
+      "kind": "outfit",
+      "sprite": "assets/dressup/SP_DU_O_FairyGodmotherWings_DR.png",
+      "w": 359,
+      "h": 191
+    },
+    {
+      "id": "SP_DU_O_Floaties_DR",
+      "name": "Floaties",
+      "kind": "outfit",
+      "sprite": "assets/dressup/SP_DU_O_Floaties_DR.png",
+      "w": 100,
+      "h": 62
+    },
+    {
+      "id": "SP_DU_O_Frankenstein_Outfit_DR",
+      "name": "Frankenstein Outfit",
+      "kind": "outfit",
+      "sprite": "assets/dressup/SP_DU_O_Frankenstein_Outfit_DR.png",
+      "w": 211,
+      "h": 193
+    },
+    {
+      "id": "SP_DU_O_Frankenstein_Outfit_SP_DR",
+      "name": "Frankenstein Outfit SP",
+      "kind": "outfit",
+      "sprite": "assets/dressup/SP_DU_O_Frankenstein_Outfit_SP_DR.png",
+      "w": 289,
+      "h": 254
+    },
+    {
+      "id": "SP_DU_O_Ghost_DR",
+      "name": "Ghost",
+      "kind": "outfit",
+      "sprite": "assets/dressup/SP_DU_O_Ghost_DR.png",
+      "w": 200,
+      "h": 307
+    },
+    {
+      "id": "SP_DU_O_Granny_Gladys_DR",
+      "name": "Granny Gladys",
+      "kind": "outfit",
+      "sprite": "assets/dressup/SP_DU_O_Granny_Gladys_DR.png",
+      "w": 123,
+      "h": 181
+    },
+    {
+      "id": "SP_DU_O_Granny_Janet_DR",
+      "name": "Granny Janet",
+      "kind": "outfit",
+      "sprite": "assets/dressup/SP_DU_O_Granny_Janet_DR.png",
+      "w": 124,
+      "h": 254
+    },
+    {
+      "id": "SP_DU_O_Granny_Madge_DR",
+      "name": "Granny Madge",
+      "kind": "outfit",
+      "sprite": "assets/dressup/SP_DU_O_Granny_Madge_DR.png",
+      "w": 189,
+      "h": 342
+    },
+    {
+      "id": "SP_DU_O_Granny_Rita_DR",
+      "name": "Granny Rita",
+      "kind": "outfit",
+      "sprite": "assets/dressup/SP_DU_O_Granny_Rita_DR.png",
+      "w": 124,
+      "h": 254
+    },
+    {
+      "id": "SP_DU_O_Jetpack_DR",
+      "name": "Jetpack",
+      "kind": "outfit",
+      "sprite": "assets/dressup/SP_DU_O_Jetpack_DR.png",
+      "w": 270,
+      "h": 120
+    },
+    {
+      "id": "SP_DU_O_Mummy_DR",
+      "name": "Mummy",
+      "kind": "outfit",
+      "sprite": "assets/dressup/SP_DU_O_Mummy_DR.png",
+      "w": 193,
+      "h": 208
+    },
+    {
+      "id": "SP_DU_O_Pirate_DR",
+      "name": "Pirate",
+      "kind": "outfit",
+      "sprite": "assets/dressup/SP_DU_O_Pirate_DR.png",
+      "w": 241,
+      "h": 139
+    },
+    {
+      "id": "SP_DU_O_Pumpkin_Outfit_DR",
+      "name": "Pumpkin Outfit",
+      "kind": "outfit",
+      "sprite": "assets/dressup/SP_DU_O_Pumpkin_Outfit_DR.png",
+      "w": 192,
+      "h": 162
+    },
+    {
+      "id": "SP_DU_O_Skeleton_DR",
+      "name": "Skeleton",
+      "kind": "outfit",
+      "sprite": "assets/dressup/SP_DU_O_Skeleton_DR.png",
+      "w": 212,
+      "h": 190
+    },
+    {
+      "id": "SP_DU_O_Spider_Outfit_DR",
+      "name": "Spider Outfit",
+      "kind": "outfit",
+      "sprite": "assets/dressup/SP_DU_O_Spider_Outfit_DR.png",
+      "w": 284,
+      "h": 157
+    },
+    {
+      "id": "SP_DU_O_Tie_DR",
+      "name": "Tie",
+      "kind": "outfit",
+      "sprite": "assets/dressup/SP_DU_O_Tie_DR.png",
+      "w": 51,
+      "h": 194
+    },
+    {
+      "id": "SP_DU_O_Tutu_01_DR",
+      "name": "Tutu 01",
+      "kind": "outfit",
+      "sprite": "assets/dressup/SP_DU_O_Tutu_01_DR.png",
+      "w": 209,
+      "h": 71
+    },
+    {
+      "id": "SP_DU_O_Tutu_02_DR",
+      "name": "Tutu 02",
+      "kind": "outfit",
+      "sprite": "assets/dressup/SP_DU_O_Tutu_02_DR.png",
+      "w": 257,
+      "h": 66
+    },
+    {
+      "id": "SP_DU_O_Vampire_Outfit_DR",
+      "name": "Vampire Outfit",
+      "kind": "outfit",
+      "sprite": "assets/dressup/SP_DU_O_Vampire_Outfit_DR.png",
+      "w": 252,
+      "h": 220
+    },
+    {
+      "id": "SP_DU_O_Witch_Outfit_01_DR",
+      "name": "Witch Outfit 01",
+      "kind": "outfit",
+      "sprite": "assets/dressup/SP_DU_O_Witch_Outfit_01_DR.png",
+      "w": 216,
+      "h": 136
+    },
+    {
+      "id": "SP_DU_O_Witch_Outfit_02_DR",
+      "name": "Witch Outfit 02",
+      "kind": "outfit",
+      "sprite": "assets/dressup/SP_DU_O_Witch_Outfit_02_DR.png",
+      "w": 136,
+      "h": 168
+    },
+    {
+      "id": "SP_DU_O_Witch_Outfit_03_DR",
+      "name": "Witch Outfit 03",
+      "kind": "outfit",
+      "sprite": "assets/dressup/SP_DU_O_Witch_Outfit_03_DR.png",
+      "w": 200,
+      "h": 194
+    },
+    {
+      "id": "SP_DU_O_Witch_Outfit_04_DR",
+      "name": "Witch Outfit 04",
+      "kind": "outfit",
+      "sprite": "assets/dressup/SP_DU_O_Witch_Outfit_04_DR.png",
+      "w": 239,
+      "h": 274
+    }
+  ],
+  "bbq": [
+    {
+      "id": "SP_BBQ_Capsicum_Green_Slice_Cooked_A",
+      "sprite": "assets/bbq/SP_BBQ_Capsicum_Green_Slice_Cooked_A.png",
+      "w": 77,
+      "h": 44
+    },
+    {
+      "id": "SP_BBQ_Capsicum_Green_Slice_Raw_A",
+      "sprite": "assets/bbq/SP_BBQ_Capsicum_Green_Slice_Raw_A.png",
+      "w": 78,
+      "h": 44
+    },
+    {
+      "id": "SP_BBQ_Capsicum_Red_Slice_Cooked_A",
+      "sprite": "assets/bbq/SP_BBQ_Capsicum_Red_Slice_Cooked_A.png",
+      "w": 77,
+      "h": 44
+    },
+    {
+      "id": "SP_BBQ_Capsicum_Red_Slice_Raw_A",
+      "sprite": "assets/bbq/SP_BBQ_Capsicum_Red_Slice_Raw_A.png",
+      "w": 77,
+      "h": 45
+    },
+    {
+      "id": "SP_BBQ_Capsicum_Yellow_Slice_Cooked_A",
+      "sprite": "assets/bbq/SP_BBQ_Capsicum_Yellow_Slice_Cooked_A.png",
+      "w": 77,
+      "h": 44
+    },
+    {
+      "id": "SP_BBQ_Capsicum_Yellow_Slice_Raw_A",
+      "sprite": "assets/bbq/SP_BBQ_Capsicum_Yellow_Slice_Raw_A.png",
+      "w": 78,
+      "h": 44
+    },
+    {
+      "id": "SP_BBQ_Chicken_Slice_Cheese_Cooked",
+      "sprite": "assets/bbq/SP_BBQ_Chicken_Slice_Cheese_Cooked.png",
+      "w": 83,
+      "h": 43
+    },
+    {
+      "id": "SP_BBQ_Chicken_Slice_Cheese_Raw",
+      "sprite": "assets/bbq/SP_BBQ_Chicken_Slice_Cheese_Raw.png",
+      "w": 83,
+      "h": 40
+    },
+    {
+      "id": "SP_BBQ_Chicken_Slice_Cooked_A",
+      "sprite": "assets/bbq/SP_BBQ_Chicken_Slice_Cooked_A.png",
+      "w": 83,
+      "h": 53
+    },
+    {
+      "id": "SP_BBQ_Chicken_Slice_Cooked_Glazed_A",
+      "sprite": "assets/bbq/SP_BBQ_Chicken_Slice_Cooked_Glazed_A.png",
+      "w": 83,
+      "h": 53
+    },
+    {
+      "id": "SP_BBQ_Chicken_Slice_Raw_A",
+      "sprite": "assets/bbq/SP_BBQ_Chicken_Slice_Raw_A.png",
+      "w": 83,
+      "h": 53
+    },
+    {
+      "id": "SP_BBQ_Chicken_Slice_Raw_Glazed_A",
+      "sprite": "assets/bbq/SP_BBQ_Chicken_Slice_Raw_Glazed_A.png",
+      "w": 83,
+      "h": 53
+    },
+    {
+      "id": "SP_BBQ_Mushroom_Slice_Cooked_A",
+      "sprite": "assets/bbq/SP_BBQ_Mushroom_Slice_Cooked_A.png",
+      "w": 69,
+      "h": 45
+    },
+    {
+      "id": "SP_BBQ_Mushroom_Slice_Raw_A",
+      "sprite": "assets/bbq/SP_BBQ_Mushroom_Slice_Raw_A.png",
+      "w": 69,
+      "h": 45
+    },
+    {
+      "id": "SP_BBQ_Onion_Slice_Cooked_A",
+      "sprite": "assets/bbq/SP_BBQ_Onion_Slice_Cooked_A.png",
+      "w": 82,
+      "h": 49
+    },
+    {
+      "id": "SP_BBQ_Onion_Slice_Raw_A",
+      "sprite": "assets/bbq/SP_BBQ_Onion_Slice_Raw_A.png",
+      "w": 82,
+      "h": 49
+    },
+    {
+      "id": "SP_BBQ_Pineapple_Slice_Cooked_A",
+      "sprite": "assets/bbq/SP_BBQ_Pineapple_Slice_Cooked_A.png",
+      "w": 81,
+      "h": 45
+    },
+    {
+      "id": "SP_BBQ_Pineapple_Slice_Raw_A",
+      "sprite": "assets/bbq/SP_BBQ_Pineapple_Slice_Raw_A.png",
+      "w": 81,
+      "h": 45
+    },
+    {
+      "id": "SP_BBQ_Sausage_Slice_Cooked_A",
+      "sprite": "assets/bbq/SP_BBQ_Sausage_Slice_Cooked_A.png",
+      "w": 51,
+      "h": 26
+    },
+    {
+      "id": "SP_BBQ_Sausage_Slice_Cooked_Glazed_A",
+      "sprite": "assets/bbq/SP_BBQ_Sausage_Slice_Cooked_Glazed_A.png",
+      "w": 51,
+      "h": 26
+    },
+    {
+      "id": "SP_BBQ_Sausage_Slice_Raw_A",
+      "sprite": "assets/bbq/SP_BBQ_Sausage_Slice_Raw_A.png",
+      "w": 51,
+      "h": 26
+    },
+    {
+      "id": "SP_BBQ_Sausage_Slice_Raw_Glazed_A",
+      "sprite": "assets/bbq/SP_BBQ_Sausage_Slice_Raw_Glazed_A.png",
+      "w": 51,
+      "h": 26
+    },
+    {
+      "id": "SP_BBQ_Sausage_Stack_Cooked_A",
+      "sprite": "assets/bbq/SP_BBQ_Sausage_Stack_Cooked_A.png",
+      "w": 74,
+      "h": 44
+    },
+    {
+      "id": "SP_BBQ_Sausage_Stack_Cooked_Glazed_A",
+      "sprite": "assets/bbq/SP_BBQ_Sausage_Stack_Cooked_Glazed_A.png",
+      "w": 74,
+      "h": 44
+    },
+    {
+      "id": "SP_BBQ_Sausage_Stack_Raw_A",
+      "sprite": "assets/bbq/SP_BBQ_Sausage_Stack_Raw_A.png",
+      "w": 74,
+      "h": 44
+    },
+    {
+      "id": "SP_BBQ_Sausage_Stack_Raw_Glazed_A",
+      "sprite": "assets/bbq/SP_BBQ_Sausage_Stack_Raw_Glazed_A.png",
+      "w": 74,
+      "h": 44
+    },
+    {
+      "id": "SP_BBQ_Spawner_Capsicum_Green_Slice_Cooked_A",
+      "sprite": "assets/bbq/SP_BBQ_Spawner_Capsicum_Green_Slice_Cooked_A.png",
+      "w": 96,
+      "h": 48
+    },
+    {
+      "id": "SP_BBQ_Spawner_Capsicum_Green_Slice_Cooked_B",
+      "sprite": "assets/bbq/SP_BBQ_Spawner_Capsicum_Green_Slice_Cooked_B.png",
+      "w": 96,
+      "h": 44
+    },
+    {
+      "id": "SP_BBQ_Spawner_Capsicum_Green_Slice_Cooked_C",
+      "sprite": "assets/bbq/SP_BBQ_Spawner_Capsicum_Green_Slice_Cooked_C.png",
+      "w": 84,
+      "h": 44
+    },
+    {
+      "id": "SP_BBQ_Spawner_Capsicum_Green_Slice_Cooked_D",
+      "sprite": "assets/bbq/SP_BBQ_Spawner_Capsicum_Green_Slice_Cooked_D.png",
+      "w": 69,
+      "h": 39
+    },
+    {
+      "id": "SP_BBQ_Spawner_Capsicum_Green_Slice_Raw_A",
+      "sprite": "assets/bbq/SP_BBQ_Spawner_Capsicum_Green_Slice_Raw_A.png",
+      "w": 96,
+      "h": 50
+    },
+    {
+      "id": "SP_BBQ_Spawner_Capsicum_Green_Slice_Raw_B",
+      "sprite": "assets/bbq/SP_BBQ_Spawner_Capsicum_Green_Slice_Raw_B.png",
+      "w": 96,
+      "h": 45
+    },
+    {
+      "id": "SP_BBQ_Spawner_Capsicum_Green_Slice_Raw_C",
+      "sprite": "assets/bbq/SP_BBQ_Spawner_Capsicum_Green_Slice_Raw_C.png",
+      "w": 84,
+      "h": 44
+    },
+    {
+      "id": "SP_BBQ_Spawner_Capsicum_Green_Slice_Raw_D",
+      "sprite": "assets/bbq/SP_BBQ_Spawner_Capsicum_Green_Slice_Raw_D.png",
+      "w": 62,
+      "h": 41
+    },
+    {
+      "id": "SP_BBQ_Spawner_Capsicum_Red_Slice_Cooked_A",
+      "sprite": "assets/bbq/SP_BBQ_Spawner_Capsicum_Red_Slice_Cooked_A.png",
+      "w": 95,
+      "h": 49
+    },
+    {
+      "id": "SP_BBQ_Spawner_Capsicum_Red_Slice_Cooked_B",
+      "sprite": "assets/bbq/SP_BBQ_Spawner_Capsicum_Red_Slice_Cooked_B.png",
+      "w": 95,
+      "h": 45
+    },
+    {
+      "id": "SP_BBQ_Spawner_Capsicum_Red_Slice_Cooked_C",
+      "sprite": "assets/bbq/SP_BBQ_Spawner_Capsicum_Red_Slice_Cooked_C.png",
+      "w": 83,
+      "h": 45
+    },
+    {
+      "id": "SP_BBQ_Spawner_Capsicum_Red_Slice_Cooked_D",
+      "sprite": "assets/bbq/SP_BBQ_Spawner_Capsicum_Red_Slice_Cooked_D.png",
+      "w": 62,
+      "h": 41
+    },
+    {
+      "id": "SP_BBQ_Spawner_Capsicum_Red_Slice_Raw_A",
+      "sprite": "assets/bbq/SP_BBQ_Spawner_Capsicum_Red_Slice_Raw_A.png",
+      "w": 96,
+      "h": 50
+    },
+    {
+      "id": "SP_BBQ_Spawner_Capsicum_Red_Slice_Raw_B",
+      "sprite": "assets/bbq/SP_BBQ_Spawner_Capsicum_Red_Slice_Raw_B.png",
+      "w": 96,
+      "h": 45
+    },
+    {
+      "id": "SP_BBQ_Spawner_Capsicum_Red_Slice_Raw_C",
+      "sprite": "assets/bbq/SP_BBQ_Spawner_Capsicum_Red_Slice_Raw_C.png",
+      "w": 84,
+      "h": 44
+    },
+    {
+      "id": "SP_BBQ_Spawner_Capsicum_Red_Slice_Raw_D",
+      "sprite": "assets/bbq/SP_BBQ_Spawner_Capsicum_Red_Slice_Raw_D.png",
+      "w": 62,
+      "h": 41
+    },
+    {
+      "id": "SP_BBQ_Spawner_Capsicum_Yellow_Slice_Cooked_A",
+      "sprite": "assets/bbq/SP_BBQ_Spawner_Capsicum_Yellow_Slice_Cooked_A.png",
+      "w": 96,
+      "h": 48
+    },
+    {
+      "id": "SP_BBQ_Spawner_Capsicum_Yellow_Slice_Cooked_B",
+      "sprite": "assets/bbq/SP_BBQ_Spawner_Capsicum_Yellow_Slice_Cooked_B.png",
+      "w": 96,
+      "h": 44
+    },
+    {
+      "id": "SP_BBQ_Spawner_Capsicum_Yellow_Slice_Cooked_C",
+      "sprite": "assets/bbq/SP_BBQ_Spawner_Capsicum_Yellow_Slice_Cooked_C.png",
+      "w": 84,
+      "h": 44
+    }
+  ]
+}

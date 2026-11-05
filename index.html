@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <title>Bluey: Vamos Brincar! — Edição Educacional Completa (Todos os Mapas Desbloqueados)</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- TOP HUD BAR -->
+  <header id="hud-bar">
+    <div class="hud-left">
+      <button id="btn-home" class="img-btn" title="Mapa Principal (Todos os Cenários)">
+        <img src="assets/ui/UI_HomeButton_Up.png" alt="Início" />
+      </button>
+      <div id="room-badge">
+        <span id="current-room-title">Mapa da Vizinhança dos Heeler</span>
+        <span id="current-room-edu">Explore todos os 30 cenários, 41 personagens e 5 minijogos educativos 100% desbloqueados!</span>
+      </div>
+    </div>
+
+    <div class="hud-center">
+      <button id="btn-edu-mission" class="pill-btn mission-pill" title="Missão Educativa e Caça ao Cachorro Comprido (Longdog)">
+        🎯 <span id="mission-text">Missão: Escolha um cenário para brincar!</span>
+      </button>
+      <div id="score-badges">
+        <span class="badge-item" title="Cachorros Compridos (Longdogs) encontrados">🌭 <b id="longdog-count">0</b></span>
+        <span class="badge-item" title="Estrelas de Aprendizado">⭐ <b id="star-count">0</b></span>
+      </div>
+    </div>
+
+    <div class="hud-right">
+      <button id="btn-keepy-uppy" class="pill-btn action-pill hidden" title="Minijogo: Não Deixe o Balão Cair (Keepy Uppy)!">
+        🎈 Balão (<span id="balloon-score">0</span>)
+      </button>
+      <button id="btn-xylophone" class="pill-btn magic-pill hidden" title="Xilofone Mágico: Congelar / Descongelar Personagens!">
+        🎹 Xilofone Mágico
+      </button>
+      <button id="btn-music" class="pill-btn music-pill" title="Ligar / Desligar Música Tema da Bluey">
+        🎵 Música: ON
+      </button>
+      <button id="btn-video" class="pill-btn video-pill" title="Assistir Vídeo Original da Bluey">
+        🎬 Vídeo
+      </button>
+      <button id="btn-camera" class="img-btn" title="Tirar Foto da Cena!">
+        <img src="assets/ui/UI_CameraButton_Up.png" alt="Câmera" />
+      </button>
+    </div>
+  </header>
+
+  <!-- VIEW 1: MAIN MENU (NEIGHBORHOOD BUBBLE MAP + MINIGAME HUB) -->
+  <main id="view-menu" class="view-screen active">
+    <div class="sky-backdrop">
+      <div class="cloud c1"></div>
+      <div class="cloud c2"></div>
+      <div class="cloud c3"></div>
+    </div>
+
+    <div class="menu-hero">
+      <img src="assets/ui/UI_MM_BlueyLogoTag_EN.png" alt="Bluey Logo" class="bluey-logo" />
+      <div class="hero-subtitle">
+        <span class="unlocked-tag">🔓 100% DESBLOQUEADO</span>
+        <span>30 Cenários Originais • 41 Personagens • 5 Minijogos Educativos</span>
+      </div>
+
+      <!-- Category Filter Tabs -->
+      <div class="menu-tabs">
+        <button class="tab-btn active" data-filter="all">🌟 Todos (34)</button>
+        <button class="tab-btn" data-filter="minigames">🎨 Minijogos Educativos (4)</button>
+        <button class="tab-btn" data-filter="house">🏠 Casa dos Heeler (14)</button>
+        <button class="tab-btn" data-filter="town">🌳 Cidade, Escola e Praia (12)</button>
+        <button class="tab-btn" data-filter="special">🎄 Especiais e Noite (4)</button>
+      </div>
+    </div>
+
+    <!-- Floating Bubbles Grid -->
+    <div id="bubbles-container" class="bubbles-grid"></div>
+  </main>
+
+  <!-- VIEW 2: DOLLHOUSE ROOM ENGINE (INTERACTIVE CANVAS) -->
+  <section id="view-room" class="view-screen">
+    <div id="room-viewport">
+      <canvas id="room-canvas"></canvas>
+
+      <!-- Pan Arrows -->
+      <button id="pan-left" class="pan-arrow left" title="Mover câmera para a esquerda">◀</button>
+      <button id="pan-right" class="pan-arrow right" title="Mover câmera para a direita">▶</button>
+
+      <!-- Speech / Educational Fact Toast -->
+      <div id="speech-toast" class="hidden"></div>
+    </div>
+
+    <!-- Bottom Interactive Trays (41 Characters + Room Props + Costumes) -->
+    <div id="bottom-dock">
+      <div class="dock-tabs">
+        <button id="btn-toggle-chars" class="dock-tab active" data-tray="chars">
+          <img src="assets/ui/UI_CharactersButton_Up.png" alt="" />
+          <span>41 Personagens</span>
+        </button>
+        <button id="btn-toggle-props" class="dock-tab" data-tray="props">
+          <span>🧸 Objetos e Brinquedos</span>
+        </button>
+        <button id="btn-toggle-costumes" class="dock-tab" data-tray="costumes">
+          <span>👑 Chapéus e Fantasias</span>
+        </button>
+        <button id="btn-clear-room" class="dock-tab danger-tab" title="Limpar objetos extras da cena">
+          <span>🧹 Arrumar Quarto</span>
+        </button>
+      </div>
+
+      <div id="tray-items" class="tray-scroll"></div>
+    </div>
+  </section>
+
+  <!-- VIEW 3: COLOURING BOOK MINIGAME -->
+  <section id="view-colouring" class="view-screen">
+    <div class="minigame-layout">
+      <aside class="colouring-sidebar">
+        <h3>🎨 Livro de Colorir</h3>
+        <p class="small-hint">Escolha um desenho original da Bluey:</p>
+        <div id="colouring-pages-list" class="pages-thumb-list"></div>
+      </aside>
+
+      <div class="colouring-stage">
+        <div class="canvas-paper-wrap">
+          <canvas id="colouring-canvas" width="768" height="768"></canvas>
+        </div>
+      </div>
+
+      <aside class="colouring-tools">
+        <h3>🖌️ Cores e Pincel</h3>
+        <div class="brush-sizes">
+          <button class="size-btn" data-size="10">Pequeno</button>
+          <button class="size-btn active" data-size="24">Médio</button>
+          <button class="size-btn" data-size="46">Grande</button>
+          <button id="btn-eraser" class="size-btn">🧼 Borracha</button>
+        </div>
+        <div id="color-palette" class="palette-grid"></div>
+        <div class="tool-actions">
+          <button id="btn-clear-paint" class="pill-btn">🔄 Limpar Pintura</button>
+          <button id="btn-save-paint" class="pill-btn action-pill">📸 Salvar Desenho</button>
+        </div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- VIEW 4: DRESS-UP STUDIO MINIGAME -->
+  <section id="view-dressup" class="view-screen">
+    <div class="minigame-layout">
+      <aside class="dressup-sidebar">
+        <h3>🐶 Escolha o Personagem</h3>
+        <div id="dressup-char-list" class="pages-thumb-list"></div>
+      </aside>
+
+      <div class="dressup-stage">
+        <canvas id="dressup-canvas" width="900" height="620"></canvas>
+        <div class="dressup-controls">
+          <button id="btn-du-random" class="pill-btn magic-pill">🎲 Fantasia Surpresa!</button>
+          <button id="btn-du-clear" class="pill-btn">🔄 Tirar Fantasia</button>
+          <button id="btn-du-pose" class="pill-btn action-pill">💃 Pular e Dançar!</button>
+        </div>
+      </div>
+
+      <aside class="dressup-wardrobe">
+        <h3>👑 Guarda-Roupa (116 Itens)</h3>
+        <div class="wardrobe-Subtabs">
+          <button class="w-tab active" data-wkind="all">Todos</button>
+          <button class="w-tab" data-wkind="hat">Chapéus</button>
+          <button class="w-tab" data-wkind="face">Óculos</button>
+          <button class="w-tab" data-wkind="outfit">Roupas</button>
+        </div>
+        <div id="dressup-items-list" class="wardrobe-grid"></div>
+      </aside>
+    </div>
+  </section>
+
+  <!-- VIEW 5: BANDIT'S BBQ & MATHS MINIGAME -->
+  <section id="view-bbq" class="view-screen">
+    <div class="bbq-wrapper">
+      <div class="bbq-order-bar">
+        <div class="chef-avatar">
+          <img src="assets/characters/SP_Bandit.png" alt="Bandit" />
+        </div>
+        <div class="order-bubble">
+          <h4>🍖 Churrasco Educativo do Bandit!</h4>
+          <p id="bbq-order-text">Clique nos ingredientes abaixo para colocá-los na grelha, espere assar no ponto certo e sirva no prato!</p>
+        </div>
+        <div class="bbq-stats">
+          <span>Pratos Servidos: <b id="bbq-served-count">0</b></span>
+          <button id="btn-bbq-new-order" class="pill-btn action-pill">📋 Novo Pedido</button>
+        </div>
+      </div>
+
+      <canvas id="bbq-canvas" width="1100" height="540"></canvas>
+    </div>
+  </section>
+
+  <!-- VIEW 6: DANCE MODE RHYTHM & MEMORY MINIGAME -->
+  <section id="view-dance" class="view-screen">
+    <div class="dance-wrapper">
+      <div class="dance-header">
+        <h3>🕺 Modo Dança! (Dance Mode & Xilofone Mágico)</h3>
+        <p id="dance-status">Toque nas notas coloridas ou siga a sequência musical para fazer a família Heeler dançar!</p>
+        <div class="dance-controls">
+          <button id="btn-dance-freestyle" class="pill-btn active">🎹 Modo Livre</button>
+          <button id="btn-dance-simon" class="pill-btn magic-pill">🧠 Desafio de Memória Musical</button>
+          <button id="btn-dance-freeze" class="pill-btn action-pill">❄️ Estátua! (Freeze)</button>
+        </div>
+      </div>
+
+      <canvas id="dance-canvas" width="1100" height="460"></canvas>
+
+      <div id="xylophone-keys" class="xylo-keyboard">
+        <button class="xylo-key k1" data-note="0">DÓ (1)</button>
+        <button class="xylo-key k2" data-note="1">RÉ (2)</button>
+        <button class="xylo-key k3" data-note="2">MI (3)</button>
+        <button class="xylo-key k4" data-note="3">FÁ (4)</button>
+        <button class="xylo-key k5" data-note="4">SOL (5)</button>
+        <button class="xylo-key k6" data-note="5">LÁ (6)</button>
+        <button class="xylo-key k7" data-note="6">SI (7)</button>
+        <button class="xylo-key k8" data-note="7">DÓ+ (8)</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- PROMO VIDEO MODAL -->
+  <div id="video-modal" class="modal-overlay hidden">
+    <div class="modal-card">
+      <div class="modal-header">
+        <h3>🎬 Clipe Oficial — Bluey: Vamos Brincar!</h3>
+        <button id="btn-close-video" class="img-btn small">
+          <img src="assets/ui/UI_ButtonClose_Up.png" alt="Fechar" />
+        </button>
+      </div>
+      <video id="promo-video" controls preload="metadata" src="assets/media/promo.mp4"></video>
+    </div>
+  </div>
+
+  <!-- PHOTO SNAPSHOT MODAL -->
+  <div id="photo-modal" class="modal-overlay hidden">
+    <div class="modal-card photo-card">
+      <div class="modal-header">
+        <h3>📸 Sua Foto na Casa da Bluey!</h3>
+        <button id="btn-close-photo" class="img-btn small">
+          <img src="assets/ui/UI_ButtonClose_Up.png" alt="Fechar" />
+        </button>
+      </div>
+      <img id="snapshot-preview" alt="Foto capturada" />
+      <div class="modal-actions">
+        <a id="btn-download-photo" download="bluey-foto.png" class="pill-btn action-pill">💾 Baixar Foto (PNG)</a>
+      </div>
+    </div>
+  </div>
+
+  <script src="assets/game_data.js"></script>
+  <script src="game.js"></script>
+</body>
+</html>
+
