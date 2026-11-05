@@ -364,6 +364,9 @@ body {
   height: 100%;
   display: block;
   cursor: grab;
+  touch-action: none;
+  user-select: none;
+  -webkit-user-select: none;
 }
 
 #room-canvas:active {
