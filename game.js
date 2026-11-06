@@ -1807,6 +1807,108 @@
     }
   });
 
+  // =========================================================================
+  // 8. PWA INSTALL (SHORTCUT DOWNLOAD ON ANDROID) & FULLSCREEN HANDLERS
+  // =========================================================================
+  // Register Service Worker for PWA installability
+  if ('serviceWorker' in navigator) {
+    window.addEventListener('load', () => {
+      navigator.serviceWorker.register('sw.js').catch(err => {
+        console.warn('SW register note:', err);
+      });
+    });
+  }
+
+  let deferredInstallPrompt = null;
+  const btnInstallApp = document.getElementById('btn-install-app');
+  const btnHeroInstall = document.getElementById('btn-hero-install');
+
+  window.addEventListener('beforeinstallprompt', e => {
+    e.preventDefault();
+    deferredInstallPrompt = e;
+    if (btnInstallApp) btnInstallApp.classList.remove('hidden');
+    if (btnHeroInstall) btnHeroInstall.classList.remove('hidden');
+  });
+
+  window.addEventListener('appinstalled', () => {
+    deferredInstallPrompt = null;
+    showToast('🎉 O jogo da Bluey foi instalado com sucesso na sua tela inicial!');
+    if (btnInstallApp) btnInstallApp.classList.add('hidden');
+    if (btnHeroInstall) btnHeroInstall.classList.add('hidden');
+  });
+
+  async function triggerAppInstall() {
+    if (deferredInstallPrompt) {
+      try {
+        deferredInstallPrompt.prompt();
+        const { outcome } = await deferredInstallPrompt.userChoice;
+        if (outcome === 'accepted') {
+          showToast('🐾 Adicionando o atalho à sua tela inicial...');
+        }
+        deferredInstallPrompt = null;
+      } catch (err) {
+        showToast('Toque no menu (⋮) do Chrome e selecione "Adicionar à tela inicial" ou "Instalar aplicativo"');
+      }
+    } else {
+      // Guide user for manual Android / iOS shortcut creation
+      const isIOS = /iPad|iPhone|iPod/.test(navigator.userAgent) && !window.MSStream;
+      if (isIOS) {
+        showToast('📲 No iPhone: toque no ícone de Compartilhar (quadrado com seta) e escolha "Adicionar à Tela de Início"!');
+      } else {
+        showToast('📲 No Android: toque no menu do navegador (⋮) no topo direito e escolha "Adicionar à tela inicial" ou "Instalar aplicativo"!');
+      }
+    }
+  }
+
+  if (btnInstallApp) btnInstallApp.addEventListener('click', triggerAppInstall);
+  if (btnHeroInstall) btnHeroInstall.addEventListener('click', triggerAppInstall);
+
+  // Fullscreen support with cross-browser prefixes
+  const btnFullscreen = document.getElementById('btn-fullscreen');
+  const btnHeroFullscreen = document.getElementById('btn-hero-fullscreen');
+
+  function updateFullscreenBtnText() {
+    const isFS = !!(document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement || document.msFullscreenElement);
+    const text = isFS ? '🗗 Sair Tela Cheia' : '⛶ Tela Cheia';
+    if (btnFullscreen) btnFullscreen.textContent = text;
+    if (btnHeroFullscreen) btnHeroFullscreen.textContent = isFS ? '🗗 Sair da Tela Cheia' : '⛶ Jogar em Tela Cheia';
+  }
+
+  function toggleFullscreen() {
+    const docEl = document.documentElement;
+    const isFS = !!(document.fullscreenElement || document.webkitFullscreenElement || document.mozFullScreenElement || document.msFullscreenElement);
+
+    if (!isFS) {
+      const requestFS = docEl.requestFullscreen || docEl.webkitRequestFullscreen || docEl.mozRequestFullScreen || docEl.msRequestFullscreen;
+      if (requestFS) {
+        requestFS.call(docEl).then(() => {
+          // Attempt screen orientation lock to landscape on Android if available
+          if (screen.orientation && screen.orientation.lock) {
+            screen.orientation.lock('landscape').catch(() => {});
+          }
+          showToast('⛶ Modo Tela Cheia Ativado! Divirta-se!');
+        }).catch(() => {
+          showToast('⛶ Modo Tela Cheia Ativado!');
+        });
+      } else {
+        showToast('Tela cheia não suportada neste navegador.');
+      }
+    } else {
+      const exitFS = document.exitFullscreen || document.webkitExitFullscreen || document.mozCancelFullScreen || document.msExitFullscreen;
+      if (exitFS) {
+        exitFS.call(document).catch(() => {});
+      }
+    }
+  }
+
+  if (btnFullscreen) btnFullscreen.addEventListener('click', toggleFullscreen);
+  if (btnHeroFullscreen) btnHeroFullscreen.addEventListener('click', toggleFullscreen);
+
+  document.addEventListener('fullscreenchange', updateFullscreenBtnText);
+  document.addEventListener('webkitfullscreenchange', updateFullscreenBtnText);
+  document.addEventListener('mozfullscreenchange', updateFullscreenBtnText);
+  document.addEventListener('MSFullscreenChange', updateFullscreenBtnText);
+
   // Initialize!
   renderMainMenu('all');
   requestAnimationFrame(updateAndDrawRoom);

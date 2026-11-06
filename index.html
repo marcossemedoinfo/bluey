@@ -2,8 +2,16 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, viewport-fit=cover" />
   <title>Bluey: Vamos Brincar! — Edição Educacional Completa (Todos os Mapas Desbloqueados)</title>
+  <meta name="theme-color" content="#4f90c6" />
+  <meta name="mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+  <meta name="apple-mobile-web-app-title" content="Bluey" />
+  <link rel="manifest" href="manifest.webmanifest" />
+  <link rel="icon" type="image/png" sizes="192x192" href="assets/icons/app_icon_192.png" />
+  <link rel="apple-touch-icon" href="assets/icons/app_icon_192.png" />
   <link rel="stylesheet" href="style.css" />
 </head>
 <body>
@@ -30,6 +38,12 @@
     </div>
 
     <div class="hud-right">
+      <button id="btn-install-app" class="pill-btn magic-pill" title="Baixar / Instalar Atalho do Jogo no Celular">
+        📲 Instalar App
+      </button>
+      <button id="btn-fullscreen" class="pill-btn action-pill" title="Tela Cheia (Fullscreen)">
+        ⛶ Tela Cheia
+      </button>
       <button id="btn-keepy-uppy" class="pill-btn action-pill hidden" title="Minijogo: Não Deixe o Balão Cair (Keepy Uppy)!">
         🎈 Balão (<span id="balloon-score">0</span>)
       </button>
@@ -70,6 +84,16 @@
         <button class="tab-btn" data-filter="house">🏠 Casa dos Heeler (14)</button>
         <button class="tab-btn" data-filter="town">🌳 Cidade, Escola e Praia (12)</button>
         <button class="tab-btn" data-filter="special">🎄 Especiais e Noite (4)</button>
+      </div>
+
+      <!-- Quick Action Mobile Bar (Install Shortcut + Fullscreen) -->
+      <div class="mobile-quick-actions">
+        <button id="btn-hero-install" class="hero-action-btn install-btn">
+          📲 Baixar Atalho no Android / Instalar Jogo
+        </button>
+        <button id="btn-hero-fullscreen" class="hero-action-btn fs-btn">
+          ⛶ Jogar em Tela Cheia
+        </button>
       </div>
     </div>
 
