@@ -682,6 +682,10 @@
   }
 
   roomCanvas.addEventListener('pointerdown', e => {
+    // Ensure smooth pointer capture across Android browsers
+    if (e.pointerId !== undefined && roomCanvas.setPointerCapture) {
+      try { roomCanvas.setPointerCapture(e.pointerId); } catch (_) {}
+    }
     const { sx, sy, wx, wy } = getRoomCoords(e);
 
     // 1. Check Keepy Uppy balloon tap
@@ -805,7 +809,10 @@
     }
   });
 
-  window.addEventListener('pointerup', () => {
+  function endPointerDrag(e) {
+    if (e && e.pointerId !== undefined && roomCanvas.releasePointerCapture) {
+      try { roomCanvas.releasePointerCapture(e.pointerId); } catch (_) {}
+    }
     if (state.dragTarget && state.currentRoom) {
       const ent = state.dragTarget;
       // If dragging a dress-up accessory prop over a character, equip it directly onto that character!
@@ -848,7 +855,10 @@
     state.dragTarget = null;
     state.hoveredSurface = null;
     state.isPanning = false;
-  });
+  }
+
+  window.addEventListener('pointerup', endPointerDrag);
+  window.addEventListener('pointercancel', endPointerDrag);
 
   // Main 2.5D Room Render Loop
   function updateAndDrawRoom(time) {
@@ -1222,13 +1232,23 @@
   }
 
   colCanvas.addEventListener('pointerdown', e => {
+    if (e.pointerId !== undefined && colCanvas.setPointerCapture) {
+      try { colCanvas.setPointerCapture(e.pointerId); } catch (_) {}
+    }
     isPainting = true;
     paintStroke(e);
   });
   colCanvas.addEventListener('pointermove', e => {
     if (isPainting) paintStroke(e);
   });
-  window.addEventListener('pointerup', () => (isPainting = false));
+  const endPainting = (e) => {
+    if (e && e.pointerId !== undefined && colCanvas.releasePointerCapture) {
+      try { colCanvas.releasePointerCapture(e.pointerId); } catch (_) {}
+    }
+    isPainting = false;
+  };
+  window.addEventListener('pointerup', endPainting);
+  window.addEventListener('pointercancel', endPainting);
 
   document.querySelectorAll('.brush-sizes .size-btn[data-size]').forEach(btn => {
     btn.addEventListener('click', () => {
